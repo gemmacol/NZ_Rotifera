@@ -13,7 +13,22 @@ tree <- read.tree("02_tree.treefile")
 metadata <- read_csv('03_metadata.csv', show_col_types = FALSE)
 genus_list <- read_csv('03_genus_list.csv')
 
-#tree$tip.label # how to extract tip labels from tree object
+
+#### EXTRACT TIP LABELS AND COMBINE WITH METADATA ####
+# FYI, this is how metadata object above was originally created
+## Create object with new tip labels from the tree file
+new.tip.labels <- as.data.frame(tree$tip.label)
+colnames(new.tip.labels) <- "tip_labels"
+
+## data to columns
+new.tip.labels <- new.tip.labels %>% separate(tip_labels, c("a", "b", "c", "d"), extra = "drop", fill = "right")
+head(new.tip.labels)
+
+write.table(new.tip.labels, file = "temp_TipLabels_separated.csv",sep = ",", row.names =FALSE)
+## in excel: manually combine metadata with tree labels and save as 03_metadata.csv
+
+
+
 
 #### PREPARE BASIC TREE ####
 
