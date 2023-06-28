@@ -1,0 +1,2691 @@
+IQ-TREE multicore version 2.2.0 COVID-edition for Windows 64-bit built Jun  1 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    L-000176721157 (AVX512, FMA3, 15 GB RAM)
+Command: bin\iqtree2 -s V8.2023-05-19_trimmed_partition-codon.phy -B 1000 -nm 3000 -bnni -T AUTO -m MFP
+Seed:    358162 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri May 19 14:23:47 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file V8.2023-05-19_trimmed_partition-codon.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0024092 secs
+Alignment has 335 sequences with 635 columns, 488 distinct patterns
+354 parsimony-informative, 56 singleton sites, 225 constant sites
+                                                                                                                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0001663 secs
+   1  AGROT404_10|Lecane_bulla_AEG10|COI_5P|JX216664                                                                                 25.51%    passed     64.96%
+   2  AGROT412_10|Lecane_bulla2|COI_5P|JX216651                                                                                      25.51%    failed      2.37%
+   3  AGROT486_11|Lecane_closterocerca|COI_5P|JX216672                                                                               25.51%    failed      4.64%
+   4  AGROT491_11|Lecane_lunaris|COI_5P|JX216723                                                                                     25.51%    passed     37.32%
+   5  AGROT512_11|Platyias_quadricornis|COI_5P|JX216800                                                                              25.51%    passed     65.07%
+   6  AGROT516_11|Brachionus_angularis|COI_5P|JX216504                                                                               25.51%    failed      4.04%
+   7  AGROT517_11|Lecane_bulla3|COI_5P|JX216653                                                                                      25.51%    passed      9.26%
+   8  AGROT524_11|Keratella_tropica|COI_5P|JX216641                                                                                  25.51%    passed     99.88%
+   9  AGROT551_11|Lecane_bulla4|COI_5P|JX216658                                                                                      25.51%    failed      2.65%
+  10  AGROT606_11|Brachionus_calyciflorus|COI_5P|JX216516                                                                            25.51%    passed     73.01%
+  11  AGROT621_11|Trichocerca_cf._capucina|COI_5P|JX216815                                                                           25.51%    passed     27.62%
+  12  AGROT712_11|Lecane_ludwigii_f._ohioensis|COI_5P|JX216710                                                                       25.51%    passed     61.79%
+  13  AGROT751_11|Lecane_bulla1|COI_5P|JX216646                                                                                      25.51%    passed     24.11%
+  14  AGROT766_11|Lepadella_cf._ovalis|COI_5P|JX216761                                                                               25.51%    passed      7.46%
+  15  AGROT837_11|Trichocerca_stylata|COI_5P|JX216825                                                                                25.51%    passed     53.06%
+  16  AGROT844_11|Lecane_bulla5|COI_5P|JX216662                                                                                      25.51%    passed     36.11%
+  17  AGROT845_11|Lecane_lunaris_AEG1|COI_5P|JX216731                                                                                25.67%    passed     18.46%
+  18  Collotheca_campanulata_DQ297766                                                                                                25.51%    passed     43.53%
+  19  CTM001_10|Platyias_quadricornis1|COI_5P|HQ944301                                                                               25.51%    passed     30.78%
+  20  CTM061_10|Lecane_bulla_AEG9|COI_5P|HQ944348                                                                                    25.51%    passed     12.57%
+  21  CTM062_10|Lecane_bulla|COI_5P|HQ944349                                                                                         25.51%    passed     10.81%
+  22  GBMAA513_14|Polyarthra_dolichoptera|COI_5P|KJ460388                                                                            25.67%    passed     46.55%
+  23  GBMAA1950_15|Brachionus_calyciflorus|COI_5P|KC495144                                                                           25.51%    passed     45.87%
+  24  GBMAA1973_15|Brachionus_angularis|COI_5P|KM051944                                                                              25.51%    passed     65.65%
+  25  GBMIN139567_18|Asplanchna_sp._WM_2017b|COI_5P|LC215491                                                                         25.51%    passed     84.98%
+  26  GBMIN139609_18|Brachionus_calyciflorus|COI_5P|KX495817                                                                         25.51%    passed     40.16%
+  27  GBMIN140181_18|Brachionus_quadridentatus|COI_5P|KY749410                                                                       25.51%    passed     72.83%
+  28  GBMIN140182_18|Brachionus_quadridentatus|COI_5P|KY749408                                                                       25.51%    passed     72.83%
+  29  GBMIN140216_18|Keratella_cochlearis|COI_5P|KT986362                                                                            25.51%    passed     13.80%
+  30  GBMIN140240_18|Keratella_cochlearis|COI_5P|KT986437                                                                            25.51%    passed     16.17%
+  31  GBMIN140248_18|Keratella_cochlearis|COI_5P|KT986414                                                                            25.51%    passed     13.80%
+  32  GBMIN140253_18|Keratella_cochlearis|COI_5P|KT986439                                                                            25.51%    passed     16.17%
+  33  GBMIN140285_18|Keratella_cochlearis|COI_5P|KT986438                                                                            25.51%    passed     16.17%
+  34  GBMIN140322_18|Keratella_cochlearis|COI_5P|KT986360                                                                            25.51%    passed     13.80%
+  35  GBMIN140349_18|Keratella_sp._WM_2017a|COI_5P|LC215529                                                                          25.51%    passed     29.21%
+  36  GBMIN140350_18|Keratella_sp._WM_2017a|COI_5P|LC215524                                                                          25.51%    passed     13.20%
+  37  GBMIN140351_18|Keratella_sp._WM_2017a|COI_5P|LC215528                                                                          25.51%    passed     14.35%
+  38  GBMIN140352_18|Keratella_sp._WM_2017a|COI_5P|LC215525                                                                          25.51%    passed     15.38%
+  39  GBMIN140353_18|Keratella_sp._WM_2017a|COI_5P|LC215526                                                                          25.51%    passed     14.35%
+  40  GBMIN140354_18|Keratella_sp._WM_2017a|COI_5P|LC215531                                                                          25.51%    passed     10.87%
+  41  GBMIN140357_18|Keratella_sp._WM_2017d|COI_5P|LC215546                                                                          25.51%    passed     63.74%
+  42  GBMIN140358_18|Keratella_sp._WM_2017d|COI_5P|LC215545                                                                          25.51%    passed     59.76%
+  43  GBMIN140359_18|Keratella_sp._WM_2017d|COI_5P|LC215542                                                                          25.51%    passed     63.74%
+  44  GBMIN140360_18|Keratella_sp._WM_2017d|COI_5P|LC215544                                                                          25.51%    passed     63.74%
+  45  GBMIN140362_18|Keratella_sp._WM_2017e|COI_5P|LC215548                                                                          25.51%    passed     55.51%
+  46  GBMIN140378_18|Polyarthra_sp._WM_2017d|COI_5P|LC215569                                                                         25.51%    passed     50.47%
+  47  GBMIN140378_18|Polyarthra_sp._WM_2017d|COI_5P|LC215569_sp._WM_2017d|COI_5P|LC215569                                            25.51%    passed     50.47%
+  48  GBMIN140495_18|Synchaeta_pectinata|COI_5P|KP875653                                                                             25.51%    failed      0.16%
+  49  GBMIN140524_18|Trichocerca_sp._WM_2017b|COI_5P|LC215605                                                                        25.51%    failed      3.72%
+  50  GBSP7568_13|Lecane_bulla|COI_5P|HQ444174                                                                                       25.51%    passed     51.16%
+  51  GBSP9994_13|Polyarthra_dolichoptera|COI_5P|KC618896                                                                            25.83%    passed     11.03%
+  52  GBSP10066_13|Keratella_cochlearis|COI_5P|KC618824                                                                              25.51%    passed     12.65%
+  53  GBSP10086_13|Ascomorpha_ovalis|COI_5P|KC618804                                                                                 25.67%    passed     89.05%
+  54  GBSP10093_13|Ascomorpha_ovalis|COI_5P|KC618797                                                                                 25.83%    passed     82.05%
+  55  GBSP10209_16|Polyarthra_dolichoptera|COI_5P|KJ460407                                                                           26.14%    passed     36.00%
+  56  GBSP10915_19|Brachionus_quadridentatus|COI_5P|KU720083                                                                         25.51%    passed     78.07%
+  57  GBSP15070_19|Lecane_bulla|COI_5P|EU188932                                                                                      25.51%    passed     32.19%
+  58  GBSP15071_19|Lecane_bulla|COI_5P|EU188927                                                                                      25.51%    passed     29.63%
+  59  GBSP15159_19|Brachionus_calyciflorus|COI_5P|KT730031                                                                           25.51%    passed     70.52%
+  60  GBSP15186_19|Polyarthra_vulgaris|COI_5P|KJ460380                                                                               26.93%    passed     16.52%
+  61  GBSP15374_19|Keratella_cochlearis|COI_5P|KT986365                                                                              25.51%    passed     13.80%
+  62  GBSP15391_19|Keratella_cochlearis|COI_5P|KT986484                                                                              25.51%    passed     22.34%
+  63  GBSP15483_19|Brachionus_angularis|COI_5P|KY749380                                                                              25.51%    passed     48.18%
+  64  GBSP15494_19|Brachionus_quadridentatus|COI_5P|KY749407                                                                         25.51%    passed     80.73%
+  65  GBSP15524_19|Hexarthra_mira|COI_5P|KY749458                                                                                    25.51%    passed     14.07%
+  66  GBSP15536_19|Keratella_tropica|COI_5P|KY749470                                                                                 25.51%    passed     57.18%
+  67  GBSP15542_19|Keratella_tropica|COI_5P|KY749476                                                                                 25.51%    passed     44.11%
+  68  GBSP15547_19|Filinia_longiseta|COI_5P|KY749484                                                                                 25.51%    passed     85.25%
+  69  GBSP15566_19|Trichocerca_similis|COI_5P|KY749503                                                                               25.51%    failed      0.00%
+  70  GBSP15593_19|Lecane_closterocerca|COI_5P|KY749535                                                                              25.51%    passed     19.96%
+  71  GBSP15598_19|Asplanchna_brightwellii|COI_5P|KY749540                                                                           25.51%    passed     26.82%
+  72  GBSP15633_19|Asplanchna_sp._WM_2017b|COI_5P|LC215492                                                                           25.51%    passed     81.92%
+  73  GBSP15647_19|Keratella_sp._WM_2017a|COI_5P|LC215527                                                                            25.51%    passed     11.66%
+  74  GBSP15648_19|Keratella_sp._WM_2017a|COI_5P|LC215530                                                                            25.51%    passed     15.38%
+  75  GBSP15657_19|Keratella_sp._WM_2017d|COI_5P|LC215543                                                                            25.51%    passed     39.48%
+  76  GBSP15658_19|Keratella_sp._WM_2017e|COI_5P|LC215549                                                                            25.51%    passed     55.51%
+  77  GBSP15661_19|Polyarthra_sp._WM_2017a|COI_5P|LC215558                                                                           25.51%    passed     78.85%
+  78  GBSP15674_19|Filinia_sp._WM_2017a|COI_5P|LC215595                                                                              25.51%    passed     20.30%
+  79  GBSP15675_19|Filinia_sp._WM_2017b|COI_5P|LC215596                                                                              25.51%    passed     89.70%
+  80  GBSP15685_19|Trichocerca_sp._WM_2017f|COI_5P|LC215612                                                                          25.51%    passed      8.41%
+  81  JX216696.1_Lecane_hamata_voucher_ECOCHZ_AG0590_cytochrome_oxidase_subunit_1__COI__gene__partial_cds__mitochondrial             25.51%    passed     98.82%
+  82  JX216719.1_Lecane_luna_voucher_ECOCHZ_AG0877_cytochrome_oxidase_subunit_1__COI__gene__partial_cds__mitochondrial               25.51%    passed     48.81%
+  83  KY749440.1_Brachionus_budapestinensis_isolate_DUL75AR_cytochrome_oxidase_subunit_I__COI__gene__partial_cds__mitochondrial      25.51%    passed     49.96%
+  84  MK905787.1_Synchaeta_hutchingsi_isolate_030817_WHV_I1_cytochrome_c_oxidase_I__COI__gene__partial_cds__mitochondrial            25.51%    failed      1.50%
+  85  MZ438155.1_Polyarthra_dolichoptera_isolate_Pdol_QX_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial      25.51%    passed     50.49%
+  86  MZ438156.1_Polyarthra_dolichoptera_isolate_Pdol_HT_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial      25.51%    passed     50.49%
+  87  MZ438157.1_Polyarthra_dolichoptera_isolate_Pdol_MX_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial      25.67%    passed     50.16%
+  88  MZ438189.1_Keratella_tropica_isolate_Ktro_MX_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.51%    passed     46.89%
+  89  MZ438190.1_Keratella_tropica_isolate_Ktro_QLS_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial           25.51%    passed     46.89%
+  90  MZ438191.1_Keratella_tropica_isolate_Ktro_GS_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.51%    passed     47.64%
+  91  MZ438192.1_Keratella_tropica_isolate_Ktro_CT_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.67%    passed     62.97%
+  92  MZ438193.1_Keratella_tropica_isolate_Ktro_DB_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.51%    passed     59.76%
+  93  MZ438194.1_Keratella_tropica_isolate_Ktro_SHB_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial           25.51%    passed     63.74%
+  94  MZ438195.1_Keratella_tropica_isolate_Ktro_HS_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.51%    passed     67.13%
+  95  MZ438196.1_Keratella_tropica_isolate_Ktro_SB_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial            25.51%    passed     67.13%
+  96  MZ438200.1_Brachionus_budapestinensis_isolate_Bbud_SB_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial   25.51%    passed     61.09%
+  97  NZPL494_11|Brachionus_quadridentatus                                                                                           25.51%    passed     77.31%
+  98  NZPL496_12|Polyarthra_dolichoptera                                                                                             25.67%    passed     51.52%
+  99  NZPL499_12|Brachionus_angularis                                                                                                25.51%    passed     13.38%
+ 100  NZPL500_12|Brachionus_angularis                                                                                                25.51%    passed     13.38%
+ 101  NZPL501_12|Brachionus_quadridentatus                                                                                           25.51%    passed     72.83%
+ 102  NZPL503_12|Keratella_procurva                                                                                                  25.51%    passed     74.96%
+ 103  NZPL504_12|Keratella_procurva                                                                                                  25.51%    passed     74.96%
+ 104  NZPL516_12|Filinia_longiseta                                                                                                   25.51%    passed     87.64%
+ 105  NZPL517_12|Filinia_longiseta                                                                                                   25.51%    passed     87.64%
+ 106  NZPL520_12|Keratella_procurva                                                                                                  25.51%    passed     76.00%
+ 107  NZPL521_12|Keratella_procurva                                                                                                  25.51%    passed     76.00%
+ 108  NZPL522_12|Trichocerca_similis                                                                                                 25.51%    failed      1.19%
+ 109  NZPL523_12|Filinia_longiseta                                                                                                   25.51%    passed     84.62%
+ 110  NZPL524_12|Filinia_longiseta                                                                                                   25.51%    passed     87.64%
+ 111  NZPL525_12|Lecane_luna                                                                                                         25.51%    passed     21.51%
+ 112  NZPL526_12|Keratella_tropica                                                                                                   25.51%    passed     63.74%
+ 113  NZPL528_12|Lecane_decipiens                                                                                                    25.51%    passed     43.99%
+ 114  NZPL529_12|Lecane_decipiens                                                                                                    25.51%    passed     43.99%
+ 115  NZPL539_12|Squatinella_mutica                                                                                                  25.51%    failed      2.98%
+ 116  NZPL540_12|Lecane_bulla                                                                                                        25.51%    passed     58.56%
+ 117  NZPL542_12|Cupelopagis_vorax                                                                                                   25.51%    passed     92.58%
+ 118  NZPL543_12|Brachionus_calyciflorus                                                                                             25.51%    passed     18.12%
+ 119  NZPL544_12|Brachionus_quadridentatus                                                                                           25.51%    passed     76.23%
+ 120  NZPL545_12|Asplanchna_priodonta                                                                                                25.51%    passed     94.44%
+ 121  NZPL546_12|Asplanchna_priodonta                                                                                                25.51%    passed     94.44%
+ 122  NZPL547_12|Euchlanis_pyriformis                                                                                                25.51%    passed     18.66%
+ 123  NZPL555_12|Collotheca_sp.                                                                                                      25.51%    failed      2.40%
+ 124  NZPL556_12|Ascomorpha_ovalis                                                                                                   25.51%    passed     99.18%
+ 125  NZPL557_12|Ascomorpha_ovalis                                                                                                   25.51%    passed     99.18%
+ 126  NZPL558_12|Asplanchna_priodonta                                                                                                25.51%    passed     95.56%
+ 127  NZPL559_12|Asplanchna_priodonta                                                                                                25.51%    passed     95.56%
+ 128  NZPL560_12|Asplanchna_priodonta                                                                                                25.51%    passed     95.56%
+ 129  NZPL561_12|Lecane_lunaris                                                                                                      25.51%    passed     55.06%
+ 130  NZPL562_12|Keratella_cochlearis                                                                                                25.51%    passed     11.66%
+ 131  NZPL563_12|Keratella_cochlearis                                                                                                25.51%    passed     11.66%
+ 132  NZPL564_12|Keratella_cochlearis                                                                                                25.51%    passed     11.66%
+ 133  NZPL573_12|Collotheca_sp.                                                                                                      25.51%    failed      2.40%
+ 134  NZPL578_12|Asplanchna_priodonta                                                                                                25.51%    passed     95.56%
+ 135  NZPL579_12|Asplanchna_priodonta                                                                                                25.51%    passed     92.24%
+ 136  NZPL845_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 137  NZPL846_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 138  NZPL848_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 139  NZPL850_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 140  NZPL853_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 141  NZPL854_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 142  NZPL855_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 143  NZPL857_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 144  NZPL861_17|Lecane_bulla                                                                                                        25.51%    passed     58.56%
+ 145  NZPL862_17|Lecane_bulla                                                                                                        25.51%    passed     58.56%
+ 146  NZPL863_17|Lecane_bulla                                                                                                        25.51%    passed     58.56%
+ 147  NZPL864_17|Lecane_lunaris                                                                                                      25.51%    passed     43.85%
+ 148  NZPL867_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 149  NZPL868_17|Lecane_lunaris                                                                                                      25.51%    passed     43.85%
+ 150  NZPL869_17|Lecane_lunaris                                                                                                      25.51%    passed     14.96%
+ 151  NZPL870_17|Lecane_lunaris                                                                                                      25.51%    passed     39.12%
+ 152  NZPL873_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 153  NZPL874_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 154  NZPL875_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 155  NZPL877_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 156  NZPL878_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 157  NZPL879_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 158  NZPL880_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 159  NZPL881_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 160  NZPL882_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 161  NZPL883_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 162  NZPL884_17|Trichocerca_similis                                                                                                 25.51%    failed      0.00%
+ 163  NZPL885_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     83.79%
+ 164  NZPL886_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     78.25%
+ 165  NZPL887_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 166  NZPL888_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.64%
+ 167  NZPL889_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 168  NZPL890_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 169  NZPL892_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     87.79%
+ 170  NZPL893_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     87.79%
+ 171  NZPL894_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 172  NZPL895_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 173  NZPL896_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 174  NZPL897_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 175  NZPL898_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 176  NZPL899_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 177  NZPL900_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 178  NZPL901_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 179  NZPL902_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     73.26%
+ 180  NZPL903_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.72%
+ 181  NZPL904_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 182  NZPL905_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 183  NZPL906_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     85.40%
+ 184  NZPL907_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     86.91%
+ 185  NZPL908_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 186  NZPL909_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 187  NZPL910_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 188  NZPL911_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     97.22%
+ 189  NZPL912_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     75.88%
+ 190  NZPL913_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 191  NZPL914_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 192  NZPL915_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     84.51%
+ 193  NZPL918_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     79.05%
+ 194  NZPL919_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     89.33%
+ 195  NZPL920_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 196  NZPL921_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 197  NZPL923_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     64.40%
+ 198  NZPL924_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     80.43%
+ 199  NZPL925_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     84.51%
+ 200  NZPL926_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 201  NZPL927_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 202  NZPL928_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     87.30%
+ 203  NZPL929_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 204  NZPL930_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 205  NZPL931_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 206  NZPL932_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     76.04%
+ 207  NZPL933_17|Polyarthra_dolichoptera                                                                                             25.51%    passed     85.14%
+ 208  NZPLA046_11|Trichocerca_similis                                                                                                25.51%    failed      0.00%
+ 209  NZPLA073_13|Hexarthra_intermedia                                                                                               25.51%    failed      4.41%
+ 210  NZPLR001_10|Platyias_quadricornis                                                                                              25.51%    passed     59.69%
+ 211  NZPLR002_10|Trichocerca_                                                                                                       25.51%    passed     11.39%
+ 212  NZPLR003_10|Trichocerca_similis                                                                                                25.51%    failed      0.00%
+ 213  NZPLR004_10|Keratella_cochlearis                                                                                               25.51%    passed     69.05%
+ 214  NZPLR005_10|Synchaeta_oblonga                                                                                                  25.51%    passed     13.45%
+ 215  NZPLR006_10|Pompholyx_complanata                                                                                               25.51%    passed     83.56%
+ 216  NZPLR007_10|Keratella_procurva                                                                                                 25.51%    passed     76.28%
+ 217  NZPLR008_11|Asplanchna_sieboldi                                                                                                25.51%    passed     40.45%
+ 218  NZPLR009_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 219  NZPLR010_11|Brachionus_calyciflorus                                                                                            25.51%    passed     18.12%
+ 220  NZPLR011_11|Keratella_tropica                                                                                                  25.51%    passed     63.74%
+ 221  NZPLR012_11|Keratella_tropica                                                                                                  25.51%    passed     63.74%
+ 222  NZPLR013_11|Hexarthra_intermedia                                                                                               25.51%    failed      3.50%
+ 223  NZPLR014_11|Brachionus_calyciflorus                                                                                            25.51%    passed     70.52%
+ 224  NZPLR015_11|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 225  NZPLR016_11|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 226  NZPLR017_11|Brachionus_quadridentatus                                                                                          25.51%    passed     76.23%
+ 227  NZPLR018_11|Keratella_tropica                                                                                                  25.51%    passed     63.74%
+ 228  NZPLR019_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 229  NZPLR020_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 230  NZPLR021_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 231  NZPLR022_11|Asplanchna_priodonta                                                                                               25.51%    passed     96.98%
+ 232  NZPLR024_11|Asplanchna_priodonta                                                                                               25.51%    passed     94.44%
+ 233  NZPLR028_11|Synchaeta_oblonga                                                                                                  25.51%    passed     24.47%
+ 234  NZPLR030_11|Synchaeta_oblonga                                                                                                  25.51%    passed     24.47%
+ 235  NZPLR039_11|Keratella_cochlearis                                                                                               25.51%    passed     12.34%
+ 236  NZPLR045_11|Lecane_lunaris                                                                                                     25.51%    passed     63.81%
+ 237  NZPLR051_11|Brachionus_angularis                                                                                               25.51%    passed      9.73%
+ 238  NZPLR053_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 239  NZPLR054_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 240  NZPLR055_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 241  NZPLR056_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 242  NZPLR058_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 243  NZPLR060_11|Trichocerca_similis                                                                                                25.51%    failed      1.19%
+ 244  NZPLR068_11|Polyarthra_dolichoptera                                                                                            25.51%    passed     64.21%
+ 245  NZPLR070_11|Polyarthra_dolichoptera                                                                                            25.51%    passed     64.21%
+ 246  NZPLR071_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 247  NZPLR072_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 248  NZPLR074_11|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 249  NZPLR075_11|Keratella_tropica                                                                                                  25.51%    passed     63.74%
+ 250  NZPLR076_11|Keratella_tropica                                                                                                  25.51%    passed     63.74%
+ 251  NZPLR078_11|Keratella_cochlearis                                                                                               25.51%    passed     11.66%
+ 252  NZPLR107_11|Synchaeta_sp.                                                                                                      25.51%    passed     10.78%
+ 253  NZPLR108_11|Keratella_cochlearis                                                                                               25.51%    passed     12.34%
+ 254  NZPLR109_11|Keratella_cochlearis                                                                                               25.51%    passed     12.34%
+ 255  NZPLR111_11|Keratella_cochlearis                                                                                               25.51%    passed     12.34%
+ 256  NZPLR114_11|Trichocerca_tenuior                                                                                                25.51%    passed     29.39%
+ 257  NZPLR176_12|Brachionus_angularis                                                                                               25.51%    passed     13.38%
+ 258  NZPLR177_12|Brachionus_quadridentatus                                                                                          25.51%    passed     72.83%
+ 259  NZPLR178_12|Keratella_procurva                                                                                                 25.51%    passed     74.96%
+ 260  NZPLR179_12|Lecane_decipiens                                                                                                   25.51%    passed     43.99%
+ 261  NZPLR180_12|Lecane_decipiens                                                                                                   25.51%    passed     43.99%
+ 262  NZPLR181_12|Platyias_quadricornis                                                                                              25.51%    passed     59.69%
+ 263  NZPLR185_12|Synchaeta_oblonga                                                                                                  25.51%    failed      0.98%
+ 264  NZPLR186_12|Synchaeta_oblonga                                                                                                  25.51%    failed      0.98%
+ 265  NZPLR187_12|Squatinella_mutica                                                                                                 25.51%    failed      2.98%
+ 266  NZPLR188_12|Squatinella_mutica                                                                                                 25.51%    failed      2.98%
+ 267  NZPLR190_12|Lepadella_cf._ovalis                                                                                               25.51%    passed     24.96%
+ 268  NZPLR192_12|Lecane_lunaris                                                                                                     25.51%    passed     30.23%
+ 269  NZPLR193_12|Lecane_bulla                                                                                                       25.51%    passed     56.80%
+ 270  NZPLR194_12|Lecane_bulla                                                                                                       25.51%    passed     56.80%
+ 271  NZPLR195_12|Lecane_bulla                                                                                                       25.51%    passed     56.80%
+ 272  NZPLR196_12|Trichocerca_similis                                                                                                25.51%    failed      0.81%
+ 273  NZPLR197_12|Polyarthra_dolichoptera                                                                                            25.51%    passed     37.53%
+ 274  NZPLR198_12|Polyarthra_dolichoptera                                                                                            25.51%    passed     37.53%
+ 275  NZPLR199_12|Brachionus_angularis                                                                                               25.51%    passed      9.73%
+ 276  NZPLR200_12|Brachionus_angularis                                                                                               25.51%    passed      9.73%
+ 277  NZPLR201_12|Filinia_cf._terminalis                                                                                             25.51%    failed      2.75%
+ 278  NZPLR202_12|Filinia_cf._terminalis                                                                                             25.98%    passed      6.04%
+ 279  NZPLR205_12|Euchlanis_cf._deflexa                                                                                              25.51%    failed      0.30%
+ 280  NZPLR206_12|Euchlanis_cf._deflexa                                                                                              25.51%    failed      0.30%
+ 281  NZPLR208_12|Synchaeta_pectinata                                                                                                25.51%    failed      0.04%
+ 282  NZPLR209_12|Asplanchna_priodonta                                                                                               25.51%    passed     88.80%
+ 283  NZPLR210_12|Synchaeta_pectinata                                                                                                25.51%    failed      0.02%
+ 284  NZPLR212_12|Lecane_luna                                                                                                        25.51%    passed     21.51%
+ 285  NZPLR213_13|Trichocerca_pusilla                                                                                                25.51%    passed     73.43%
+ 286  NZPLR214_13|Trichocerca_pusilla                                                                                                25.51%    passed     73.43%
+ 287  NZPLR215_13|Euchlanis_pyriformis                                                                                               25.51%    passed     18.66%
+ 288  NZPLR216_13|Lecane_ludwigii                                                                                                    25.51%    passed     25.60%
+ 289  NZPLR217_13|Lecane_ludwigii                                                                                                    25.51%    passed     25.60%
+ 290  NZPLR218_13|Lecane_ludwigii                                                                                                    25.51%    passed     25.60%
+ 291  NZPLR219_13|Squatinella_mutica                                                                                                 25.51%    passed     94.29%
+ 292  NZPLR220_13|Lecane_hamata                                                                                                      25.51%    passed     10.28%
+ 293  NZPLR221_13|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 294  NZPLR222_13|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 295  NZPLR223_13|Brachionus_calyciflorus                                                                                            25.51%    passed     18.12%
+ 296  NZPLR224_13|Brachionus_calyciflorus                                                                                            25.51%    passed     18.12%
+ 297  NZPLR227_13|Lecane_bulla                                                                                                       25.51%    passed     29.71%
+ 298  NZPLR228_13|Lecane_bulla                                                                                                       25.51%    passed     29.71%
+ 299  NZPLR229_13|Lecane_bulla                                                                                                       25.51%    passed     29.71%
+ 300  NZPLR230_13|Euchlanis_meneta                                                                                                   25.51%    passed     80.96%
+ 301  NZPLR232_13|Euchlanis_meneta                                                                                                   25.51%    passed     92.26%
+ 302  NZPLR233_13|Euchlanis_meneta                                                                                                   25.51%    passed     92.26%
+ 303  NZPLR234_13|Notommata_pseudocerberus                                                                                           25.51%    failed      0.04%
+ 304  NZPLR236_13|Collotheca_sp.                                                                                                     25.51%    passed     11.63%
+ 305  NZPLR240_13|Lecane_hamata                                                                                                      25.51%    passed      5.89%
+ 306  NZPLR241_13|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 307  NZPLR242_13|Euchlanis_pyriformis                                                                                               25.51%    passed     18.66%
+ 308  NZPLR246_13|Keratella_tropica                                                                                                  25.35%    passed     35.80%
+ 309  NZPLR247_13|Synchaeta_grimpii                                                                                                  25.51%    failed      0.88%
+ 310  NZPLR248_13|Synchaeta_sp.                                                                                                      25.51%    failed      1.44%
+ 311  NZPLR249_13|Synchaeta_sp.                                                                                                      25.51%    failed      1.44%
+ 312  NZPLR250_13|Trichocerca_marina                                                                                                 25.51%    failed      0.29%
+ 313  NZPLR251_13|Trichocerca_marina                                                                                                 25.51%    failed      0.48%
+ 314  NZPLR252_13|Synchaeta_sp.                                                                                                      25.51%    failed      1.09%
+ 315  NZPLR253_13|Lecane_closterocerca                                                                                               25.51%    passed     15.82%
+ 316  NZPLR255_13|Trichocerca_sp.                                                                                                    25.51%    passed     72.62%
+ 317  NZPLR256_13|Brachionus_budapestanensis                                                                                         25.51%    passed     49.69%
+ 318  NZPLR257_13|Filinia_novaezelandia                                                                                              25.51%    passed     51.66%
+ 319  NZPLR258_13|Trichotria_tetractis                                                                                               25.51%    passed     16.15%
+ 320  NZPLR259_13|Ascomorpha_sp.                                                                                                     25.51%    passed     43.23%
+ 321  NZPLR260_13|Ascomorpha_sp.                                                                                                     25.51%    passed     43.23%
+ 322  NZPLR261_13|Ascomorpha_sp.                                                                                                     25.51%    passed     43.23%
+ 323  NZPLR262_13|Filinia_novaezelandia                                                                                              25.51%    passed     51.66%
+ 324  NZPLR263_13|Filinia_novaezelandia                                                                                              25.51%    passed     51.66%
+ 325  NZPLR371_14|Asplanchna_sieboldi                                                                                                25.51%    passed     34.61%
+ 326  NZPLR372_14|Colurella_uncinata                                                                                                 25.51%    failed      3.64%
+ 327  NZPLR373_14|Keratella_tropica                                                                                                  25.51%    passed     39.19%
+ 328  NZPLR375_14|Trichocerca_stylata                                                                                                25.51%    passed     94.27%
+ 329  NZPLR384_14|Trichocerca_stylata                                                                                                25.51%    passed     79.33%
+ 330  NZPLR387_14|Hexarthra_intermedia                                                                                               25.51%    failed      3.47%
+ 331  NZPLR391_14|Pompholyx_complanata                                                                                               25.51%    passed     83.56%
+ 332  NZPLR392_14|Pompholyx_complanata                                                                                               25.51%    passed     83.56%
+ 333  NZPLR413_14|Pompholyx_complanata                                                                                               25.51%    passed     84.28%
+ 334  NZPLR414_14|Pompholyx_complanata                                                                                               25.51%    passed     84.28%
+ 335  NZPLR416_14|Pompholyx_complanata                                                                                               25.51%    passed     84.28%
+****  TOTAL                                                                                                                          25.52%  67 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: GBMIN140248_18|Keratella_cochlearis|COI_5P|KT986414 is identical to GBMIN140216_18|Keratella_cochlearis|COI_5P|KT986362 but kept for subsequent analysis
+NOTE: GBMIN140253_18|Keratella_cochlearis|COI_5P|KT986439 is identical to GBMIN140240_18|Keratella_cochlearis|COI_5P|KT986437 but kept for subsequent analysis
+NOTE: MZ438190.1_Keratella_tropica_isolate_Ktro_QLS_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial is identical to MZ438189.1_Keratella_tropica_isolate_Ktro_MX_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial but kept for subsequent analysis
+NOTE: MZ438196.1_Keratella_tropica_isolate_Ktro_SB_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial is identical to MZ438195.1_Keratella_tropica_isolate_Ktro_HS_cytochrome_c_oxidase_subunit_I__COX1__gene__partial_cds__mitochondrial but kept for subsequent analysis
+NOTE: NZPLR177_12|Brachionus_quadridentatus is identical to NZPL501_12|Brachionus_quadridentatus but kept for subsequent analysis
+NOTE: NZPL524_12|Filinia_longiseta is identical to NZPL516_12|Filinia_longiseta but kept for subsequent analysis
+NOTE: NZPL521_12|Keratella_procurva is identical to NZPL520_12|Keratella_procurva but kept for subsequent analysis
+NOTE: NZPLR009_11|Trichocerca_similis is identical to NZPL522_12|Trichocerca_similis but kept for subsequent analysis
+NOTE: NZPLR011_11|Keratella_tropica is identical to NZPL526_12|Keratella_tropica but kept for subsequent analysis
+NOTE: NZPLR179_12|Lecane_decipiens is identical to NZPL529_12|Lecane_decipiens but kept for subsequent analysis
+NOTE: NZPLR187_12|Squatinella_mutica is identical to NZPL539_12|Squatinella_mutica but kept for subsequent analysis
+NOTE: NZPLR017_11|Brachionus_quadridentatus is identical to NZPL544_12|Brachionus_quadridentatus but kept for subsequent analysis
+NOTE: NZPL546_12|Asplanchna_priodonta is identical to NZPL545_12|Asplanchna_priodonta but kept for subsequent analysis
+NOTE: NZPLR215_13|Euchlanis_pyriformis is identical to NZPL547_12|Euchlanis_pyriformis but kept for subsequent analysis
+NOTE: NZPL573_12|Collotheca_sp. is identical to NZPL555_12|Collotheca_sp. but kept for subsequent analysis
+NOTE: NZPL557_12|Ascomorpha_ovalis is identical to NZPL556_12|Ascomorpha_ovalis but kept for subsequent analysis
+NOTE: NZPL559_12|Asplanchna_priodonta is identical to NZPL558_12|Asplanchna_priodonta but kept for subsequent analysis
+NOTE: NZPL563_12|Keratella_cochlearis is identical to NZPL562_12|Keratella_cochlearis but kept for subsequent analysis
+NOTE: NZPL883_17|Trichocerca_similis is identical to NZPL853_17|Trichocerca_similis but kept for subsequent analysis
+NOTE: NZPL862_17|Lecane_bulla is identical to NZPL861_17|Lecane_bulla but kept for subsequent analysis
+NOTE: NZPL868_17|Lecane_lunaris is identical to NZPL864_17|Lecane_lunaris but kept for subsequent analysis
+NOTE: NZPL909_17|Polyarthra_dolichoptera is identical to NZPL867_17|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPL874_17|Trichocerca_similis is identical to NZPL873_17|Trichocerca_similis but kept for subsequent analysis
+NOTE: NZPL889_17|Polyarthra_dolichoptera is identical to NZPL887_17|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPL893_17|Polyarthra_dolichoptera is identical to NZPL892_17|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPL905_17|Polyarthra_dolichoptera is identical to NZPL904_17|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPL925_17|Polyarthra_dolichoptera is identical to NZPL915_17|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPLR181_12|Platyias_quadricornis is identical to NZPLR001_10|Platyias_quadricornis but kept for subsequent analysis
+NOTE: NZPLR224_13|Brachionus_calyciflorus is identical to NZPLR010_11|Brachionus_calyciflorus but kept for subsequent analysis
+NOTE: NZPLR018_11|Keratella_tropica is identical to NZPLR012_11|Keratella_tropica but kept for subsequent analysis
+NOTE: NZPLR016_11|Asplanchna_sieboldi is identical to NZPLR015_11|Asplanchna_sieboldi but kept for subsequent analysis
+NOTE: NZPLR071_11|Synchaeta_pectinata is identical to NZPLR021_11|Synchaeta_pectinata but kept for subsequent analysis
+NOTE: NZPLR030_11|Synchaeta_oblonga is identical to NZPLR028_11|Synchaeta_oblonga but kept for subsequent analysis
+NOTE: NZPLR108_11|Keratella_cochlearis is identical to NZPLR039_11|Keratella_cochlearis but kept for subsequent analysis
+NOTE: NZPLR199_12|Brachionus_angularis is identical to NZPLR051_11|Brachionus_angularis but kept for subsequent analysis
+NOTE: NZPLR070_11|Polyarthra_dolichoptera is identical to NZPLR068_11|Polyarthra_dolichoptera but kept for subsequent analysis
+NOTE: NZPLR111_11|Keratella_cochlearis is identical to NZPLR109_11|Keratella_cochlearis but kept for subsequent analysis
+NOTE: NZPLR186_12|Synchaeta_oblonga is identical to NZPLR185_12|Synchaeta_oblonga but kept for subsequent analysis
+NOTE: NZPLR194_12|Lecane_bulla is identical to NZPLR193_12|Lecane_bulla but kept for subsequent analysis
+NOTE: NZPLR217_13|Lecane_ludwigii is identical to NZPLR216_13|Lecane_ludwigii but kept for subsequent analysis
+NOTE: NZPLR228_13|Lecane_bulla is identical to NZPLR227_13|Lecane_bulla but kept for subsequent analysis
+NOTE: NZPLR262_13|Filinia_novaezelandia is identical to NZPLR257_13|Filinia_novaezelandia but kept for subsequent analysis
+NOTE: NZPLR260_13|Ascomorpha_sp. is identical to NZPLR259_13|Ascomorpha_sp. but kept for subsequent analysis
+NOTE: NZPLR392_14|Pompholyx_complanata is identical to NZPLR391_14|Pompholyx_complanata but kept for subsequent analysis
+NOTE: NZPLR414_14|Pompholyx_complanata is identical to NZPLR413_14|Pompholyx_complanata but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.311351 secs using 306.1% CPU
+Identifying sites to remove: done in 0.0029783 secs
+NOTE: 53 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GBMIN140322_18|Keratella_cochlearis|COI_5P|KT986360 (identical to GBMIN140216_18|Keratella_cochlearis|COI_5P|KT986362) is ignored but added at the end
+NOTE: GBMIN140285_18|Keratella_cochlearis|COI_5P|KT986438 (identical to GBMIN140240_18|Keratella_cochlearis|COI_5P|KT986437) is ignored but added at the end
+NOTE: NZPLR053_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR054_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR055_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR056_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR058_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR060_11|Trichocerca_similis (identical to NZPL522_12|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPLR180_12|Lecane_decipiens (identical to NZPL529_12|Lecane_decipiens) is ignored but added at the end
+NOTE: NZPLR188_12|Squatinella_mutica (identical to NZPL539_12|Squatinella_mutica) is ignored but added at the end
+NOTE: NZPLR242_13|Euchlanis_pyriformis (identical to NZPL547_12|Euchlanis_pyriformis) is ignored but added at the end
+NOTE: NZPL560_12|Asplanchna_priodonta (identical to NZPL558_12|Asplanchna_priodonta) is ignored but added at the end
+NOTE: NZPL578_12|Asplanchna_priodonta (identical to NZPL558_12|Asplanchna_priodonta) is ignored but added at the end
+NOTE: NZPL564_12|Keratella_cochlearis (identical to NZPL562_12|Keratella_cochlearis) is ignored but added at the end
+NOTE: NZPLR078_11|Keratella_cochlearis (identical to NZPL562_12|Keratella_cochlearis) is ignored but added at the end
+NOTE: NZPL920_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL921_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL926_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL927_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL929_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL930_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL931_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL932_17|Polyarthra_dolichoptera (identical to NZPL867_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL875_17|Trichocerca_similis (identical to NZPL873_17|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPL877_17|Trichocerca_similis (identical to NZPL873_17|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPL884_17|Trichocerca_similis (identical to NZPL873_17|Trichocerca_similis) is ignored but added at the end
+NOTE: NZPL890_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL894_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL895_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL896_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL897_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL898_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL899_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL900_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL901_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL903_17|Polyarthra_dolichoptera (identical to NZPL887_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL908_17|Polyarthra_dolichoptera (identical to NZPL904_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL910_17|Polyarthra_dolichoptera (identical to NZPL904_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL913_17|Polyarthra_dolichoptera (identical to NZPL904_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPL914_17|Polyarthra_dolichoptera (identical to NZPL904_17|Polyarthra_dolichoptera) is ignored but added at the end
+NOTE: NZPLR075_11|Keratella_tropica (identical to NZPLR012_11|Keratella_tropica) is ignored but added at the end
+NOTE: NZPLR076_11|Keratella_tropica (identical to NZPLR012_11|Keratella_tropica) is ignored but added at the end
+NOTE: NZPLR221_13|Asplanchna_sieboldi (identical to NZPLR015_11|Asplanchna_sieboldi) is ignored but added at the end
+NOTE: NZPLR222_13|Asplanchna_sieboldi (identical to NZPLR015_11|Asplanchna_sieboldi) is ignored but added at the end
+NOTE: NZPLR241_13|Asplanchna_sieboldi (identical to NZPLR015_11|Asplanchna_sieboldi) is ignored but added at the end
+NOTE: NZPLR371_14|Asplanchna_sieboldi (identical to NZPLR015_11|Asplanchna_sieboldi) is ignored but added at the end
+NOTE: NZPLR072_11|Synchaeta_pectinata (identical to NZPLR021_11|Synchaeta_pectinata) is ignored but added at the end
+NOTE: NZPLR074_11|Synchaeta_pectinata (identical to NZPLR021_11|Synchaeta_pectinata) is ignored but added at the end
+NOTE: NZPLR200_12|Brachionus_angularis (identical to NZPLR051_11|Brachionus_angularis) is ignored but added at the end
+NOTE: NZPLR195_12|Lecane_bulla (identical to NZPLR193_12|Lecane_bulla) is ignored but added at the end
+NOTE: NZPLR218_13|Lecane_ludwigii (identical to NZPLR216_13|Lecane_ludwigii) is ignored but added at the end
+NOTE: NZPLR263_13|Filinia_novaezelandia (identical to NZPLR257_13|Filinia_novaezelandia) is ignored but added at the end
+NOTE: NZPLR261_13|Ascomorpha_sp. (identical to NZPLR259_13|Ascomorpha_sp.) is ignored but added at the end
+Alignment was printed to V8.2023-05-19_trimmed_partition-codon.phy.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to V8.2023-05-19_trimmed_partition-codon.phy.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.126 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+25 trees examined
+Threads: 1 / Time: 8.037 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -57825
+Threads: 2 / Time: 5.415 sec / Speedup: 1.484 / Efficiency: 74% / LogL: -57825
+Threads: 3 / Time: 5.069 sec / Speedup: 1.586 / Efficiency: 53% / LogL: -57825
+Threads: 4 / Time: 5.243 sec / Speedup: 1.533 / Efficiency: 38% / LogL: -57825
+Determining AUTO threadcount: done in 23.7986 secs using 228.5% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.846752 secs using 260.2% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -23829.281
+2. Current log-likelihood: -23827.017
+Optimal log-likelihood: -23825.762
+Rate parameters:  A-C: 1.18577  A-G: 12.46230  A-T: 3.73575  C-G: 1.29551  C-T: 7.42612  G-T: 1.00000
+Base frequencies:  A: 0.212  C: 0.188  G: 0.164  T: 0.436
+Proportion of invariable sites: 0.286
+Gamma shape alpha: 0.852
+Parameters optimization took 2 rounds (0.394 sec)
+Time for fast ML tree search: 2.410 seconds
+
+NOTE: ModelFinder requires 46 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 635) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+59 trees examined
+Threads: 1 / Time: 8.128 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -70031
+Threads: 2 / Time: 8.092 sec / Speedup: 1.004 / Efficiency: 50% / LogL: -70031
+Threads: 3 / Time: 8.075 sec / Speedup: 1.007 / Efficiency: 34% / LogL: -70031
+Determining AUTO threadcount: done in 24.3132 secs using 190.5% CPU
+BEST NUMBER OF THREADS: 1
+
+  1  GTR+F         28030.392    569 57198.784    67178.169    59732.897
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+53 trees examined
+Threads: 1 / Time: 8.082 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -61092
+Threads: 2 / Time: 7.673 sec / Speedup: 1.053 / Efficiency: 53% / LogL: -61092
+Threads: 3 / Time: 6.996 sec / Speedup: 1.155 / Efficiency: 39% / LogL: -61092
+Determining AUTO threadcount: done in 22.7701 secs using 191.5% CPU
+BEST NUMBER OF THREADS: 2
+
+  2  GTR+F+I       25467.162    570 52074.323    62245.261    54612.890
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.004 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56099
+Threads: 2 / Time: 6.594 sec / Speedup: 1.214 / Efficiency: 61% / LogL: -56099
+Threads: 3 / Time: 5.307 sec / Speedup: 1.508 / Efficiency: 50% / LogL: -56099
+Threads: 4 / Time: 5.505 sec / Speedup: 1.454 / Efficiency: 36% / LogL: -56099
+Determining AUTO threadcount: done in 25.4413 secs using 220.7% CPU
+BEST NUMBER OF THREADS: 3
+
+  3  GTR+F+G4      23877.834    570 48895.668    59066.605    51434.234
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+29 trees examined
+Threads: 1 / Time: 8.103 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54225
+Threads: 2 / Time: 7.693 sec / Speedup: 1.053 / Efficiency: 53% / LogL: -54225
+Threads: 3 / Time: 6.905 sec / Speedup: 1.173 / Efficiency: 39% / LogL: -54225
+Determining AUTO threadcount: done in 22.7282 secs using 187.7% CPU
+BEST NUMBER OF THREADS: 2
+
+  4  GTR+F+I+G4    23825.050    571 48792.101    59160.736    51335.120
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+34 trees examined
+Threads: 1 / Time: 8.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -58996
+Threads: 2 / Time: 5.897 sec / Speedup: 1.357 / Efficiency: 68% / LogL: -58996
+Threads: 3 / Time: 4.726 sec / Speedup: 1.693 / Efficiency: 56% / LogL: -58996
+Threads: 4 / Time: 5.404 sec / Speedup: 1.481 / Efficiency: 37% / LogL: -58996
+Determining AUTO threadcount: done in 24.0609 secs using 228.3% CPU
+BEST NUMBER OF THREADS: 3
+
+  5  GTR+F+R2      24613.353    571 50368.706    60737.341    52911.726
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+29 trees examined
+Threads: 1 / Time: 8.012 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -57597
+Threads: 2 / Time: 5.774 sec / Speedup: 1.388 / Efficiency: 69% / LogL: -57597
+Threads: 3 / Time: 5.481 sec / Speedup: 1.462 / Efficiency: 49% / LogL: -57597
+Determining AUTO threadcount: done in 19.2915 secs using 186.4% CPU
+BEST NUMBER OF THREADS: 2
+
+  6  GTR+F+R3      24165.586    573 49477.173    60260.845    52029.100
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+31 trees examined
+Threads: 1 / Time: 8.204 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56350
+Threads: 2 / Time: 6.839 sec / Speedup: 1.200 / Efficiency: 60% / LogL: -56350
+Threads: 3 / Time: 6.403 sec / Speedup: 1.281 / Efficiency: 43% / LogL: -56350
+Determining AUTO threadcount: done in 21.4686 secs using 188.4% CPU
+BEST NUMBER OF THREADS: 2
+
+  7  GTR+F+R4      23994.038    575 49138.076    60365.195    51698.911
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.014 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55747
+Threads: 2 / Time: 4.765 sec / Speedup: 1.682 / Efficiency: 84% / LogL: -55747
+Threads: 3 / Time: 4.831 sec / Speedup: 1.659 / Efficiency: 55% / LogL: -55747
+Threads: 4 / Time: 5.095 sec / Speedup: 1.573 / Efficiency: 39% / LogL: -55747
+Determining AUTO threadcount: done in 22.7403 secs using 229.3% CPU
+BEST NUMBER OF THREADS: 2
+
+  8  GTR+F+R5      23870.817    577 48895.635    60597.599    51465.376
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.053 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55320
+Threads: 2 / Time: 5.363 sec / Speedup: 1.502 / Efficiency: 75% / LogL: -55320
+Threads: 3 / Time: 5.103 sec / Speedup: 1.578 / Efficiency: 53% / LogL: -55320
+Threads: 4 / Time: 4.977 sec / Speedup: 1.618 / Efficiency: 40% / LogL: -55320
+Determining AUTO threadcount: done in 23.5392 secs using 228.1% CPU
+BEST NUMBER OF THREADS: 2
+
+  9  GTR+F+R6      23792.477    579 48742.954    60954.591    51321.603
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.138 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55187
+Threads: 2 / Time: 6.939 sec / Speedup: 1.173 / Efficiency: 59% / LogL: -55187
+Threads: 3 / Time: 5.409 sec / Speedup: 1.505 / Efficiency: 50% / LogL: -55187
+Threads: 4 / Time: 4.883 sec / Speedup: 1.666 / Efficiency: 42% / LogL: -55187
+Determining AUTO threadcount: done in 25.4123 secs using 226.1% CPU
+BEST NUMBER OF THREADS: 3
+
+ 10  GTR+F+R7      23760.941    581 48683.882    61443.958    51271.438
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 8.219 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54681
+Threads: 2 / Time: 5.563 sec / Speedup: 1.477 / Efficiency: 74% / LogL: -54681
+Threads: 3 / Time: 5.559 sec / Speedup: 1.479 / Efficiency: 49% / LogL: -54681
+Determining AUTO threadcount: done in 19.3746 secs using 181.9% CPU
+BEST NUMBER OF THREADS: 2
+
+ 11  GTR+F+R8      23754.147    583 48674.294    62026.137    51270.757
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+16 trees examined
+Threads: 1 / Time: 8.133 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55048
+Threads: 2 / Time: 5.695 sec / Speedup: 1.428 / Efficiency: 71% / LogL: -55048
+Threads: 3 / Time: 5.661 sec / Speedup: 1.437 / Efficiency: 48% / LogL: -55048
+Determining AUTO threadcount: done in 19.525 secs using 186.9% CPU
+BEST NUMBER OF THREADS: 2
+
+ 12  GTR+F+R9      23745.974    585 48661.948    62654.193    51267.319
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+12 trees examined
+Threads: 1 / Time: 8.337 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55233
+Threads: 2 / Time: 5.045 sec / Speedup: 1.653 / Efficiency: 83% / LogL: -55233
+Threads: 3 / Time: 4.929 sec / Speedup: 1.691 / Efficiency: 56% / LogL: -55233
+Threads: 4 / Time: 4.982 sec / Speedup: 1.673 / Efficiency: 42% / LogL: -55233
+Determining AUTO threadcount: done in 23.3381 secs using 219.7% CPU
+BEST NUMBER OF THREADS: 2
+
+ 13  GTR+F+R10     23740.234    587 48654.468    63341.957    51268.745
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+43 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56121
+Threads: 2 / Time: 7.777 sec / Speedup: 1.031 / Efficiency: 52% / LogL: -56121
+Threads: 3 / Time: 7.206 sec / Speedup: 1.113 / Efficiency: 37% / LogL: -56121
+Determining AUTO threadcount: done in 23.0242 secs using 190.3% CPU
+BEST NUMBER OF THREADS: 1
+
+ 14  GTR+F+I+I+R2  23970.379    572 49084.758    59657.532    51632.231
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+27 trees examined
+Threads: 1 / Time: 8.036 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55374
+Threads: 2 / Time: 6.507 sec / Speedup: 1.235 / Efficiency: 62% / LogL: -55374
+Threads: 3 / Time: 5.302 sec / Speedup: 1.516 / Efficiency: 51% / LogL: -55374
+Threads: 4 / Time: 4.795 sec / Speedup: 1.676 / Efficiency: 42% / LogL: -55374
+Determining AUTO threadcount: done in 24.6694 secs using 222.7% CPU
+BEST NUMBER OF THREADS: 3
+
+ 15  GTR+F+I+I+R3  23810.048    574 48768.096    59769.762    51324.476
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+24 trees examined
+Threads: 1 / Time: 8.082 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54356
+Threads: 2 / Time: 7.552 sec / Speedup: 1.070 / Efficiency: 54% / LogL: -54356
+Threads: 3 / Time: 5.963 sec / Speedup: 1.355 / Efficiency: 45% / LogL: -54356
+Determining AUTO threadcount: done in 21.6243 secs using 185.9% CPU
+BEST NUMBER OF THREADS: 2
+
+ 16  GTR+F+I+I+R4  23752.717    576 48657.434    60117.848    51222.722
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+18 trees examined
+Threads: 1 / Time: 8.374 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54039
+Threads: 2 / Time: 5.062 sec / Speedup: 1.654 / Efficiency: 83% / LogL: -54039
+Threads: 3 / Time: 4.873 sec / Speedup: 1.719 / Efficiency: 57% / LogL: -54039
+Threads: 4 / Time: 5.450 sec / Speedup: 1.536 / Efficiency: 38% / LogL: -54039
+Determining AUTO threadcount: done in 23.7941 secs using 219.4% CPU
+BEST NUMBER OF THREADS: 2
+
+ 17  GTR+F+I+I+R5  23740.856    578 48637.712    60589.926    51211.907
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.225 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -53523
+Threads: 2 / Time: 6.706 sec / Speedup: 1.227 / Efficiency: 61% / LogL: -53523
+Threads: 3 / Time: 7.367 sec / Speedup: 1.117 / Efficiency: 37% / LogL: -53523
+Determining AUTO threadcount: done in 22.3318 secs using 188.7% CPU
+BEST NUMBER OF THREADS: 2
+
+ 18  GTR+F+I+I+R6  23736.818    580 48633.635    61114.376    51216.738
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.090 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55020
+Threads: 2 / Time: 6.072 sec / Speedup: 1.332 / Efficiency: 67% / LogL: -55020
+Threads: 3 / Time: 5.567 sec / Speedup: 1.453 / Efficiency: 48% / LogL: -55020
+Determining AUTO threadcount: done in 19.7593 secs using 186.5% CPU
+BEST NUMBER OF THREADS: 2
+
+ 39  SYM+I+I+R5    23954.891    575 49059.783    60286.902    51620.617
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.299 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54676
+Threads: 2 / Time: 6.701 sec / Speedup: 1.239 / Efficiency: 62% / LogL: -54676
+Threads: 3 / Time: 6.162 sec / Speedup: 1.347 / Efficiency: 45% / LogL: -54676
+Determining AUTO threadcount: done in 21.1926 secs using 183.1% CPU
+BEST NUMBER OF THREADS: 2
+
+ 40  SYM+I+I+R6    23955.851    577 49065.702    60767.667    51635.443
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.032 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54149
+Threads: 2 / Time: 5.004 sec / Speedup: 1.605 / Efficiency: 80% / LogL: -54149
+Threads: 3 / Time: 6.325 sec / Speedup: 1.270 / Efficiency: 42% / LogL: -54149
+Determining AUTO threadcount: done in 19.3947 secs using 171.6% CPU
+BEST NUMBER OF THREADS: 2
+
+ 61  TVM+F+I+I+R5  23769.875    577 48693.750    60395.715    51263.492
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+16 trees examined
+Threads: 1 / Time: 8.042 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54402
+Threads: 2 / Time: 5.269 sec / Speedup: 1.526 / Efficiency: 76% / LogL: -54402
+Threads: 3 / Time: 4.619 sec / Speedup: 1.741 / Efficiency: 58% / LogL: -54402
+Threads: 4 / Time: 5.128 sec / Speedup: 1.568 / Efficiency: 39% / LogL: -54402
+Determining AUTO threadcount: done in 23.1019 secs using 222% CPU
+BEST NUMBER OF THREADS: 3
+
+ 62  TVM+F+I+I+R6  23766.234    579 48690.468    60902.104    51269.116
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+18 trees examined
+Threads: 1 / Time: 8.291 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55191
+Threads: 2 / Time: 4.635 sec / Speedup: 1.789 / Efficiency: 89% / LogL: -55191
+Threads: 3 / Time: 4.522 sec / Speedup: 1.834 / Efficiency: 61% / LogL: -55191
+Threads: 4 / Time: 4.564 sec / Speedup: 1.817 / Efficiency: 45% / LogL: -55191
+Determining AUTO threadcount: done in 22.0481 secs using 219.5% CPU
+BEST NUMBER OF THREADS: 2
+
+ 83  TVMe+I+I+R5   23955.784    574 49059.567    60061.234    51615.948
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.272 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55355
+Threads: 2 / Time: 6.694 sec / Speedup: 1.236 / Efficiency: 62% / LogL: -55355
+Threads: 3 / Time: 6.937 sec / Speedup: 1.193 / Efficiency: 40% / LogL: -55355
+Determining AUTO threadcount: done in 21.9272 secs using 187.1% CPU
+BEST NUMBER OF THREADS: 2
+
+ 84  TVMe+I+I+R6   23956.616    576 49065.232    60525.646    51630.520
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.102 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54490
+Threads: 2 / Time: 5.645 sec / Speedup: 1.435 / Efficiency: 72% / LogL: -54490
+Threads: 3 / Time: 6.682 sec / Speedup: 1.212 / Efficiency: 40% / LogL: -54490
+Determining AUTO threadcount: done in 20.4532 secs using 185.4% CPU
+BEST NUMBER OF THREADS: 2
+
+105  TIM3+F+I+I+R5 23870.111    576 48892.222    60352.636    51457.510
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54629
+Threads: 2 / Time: 6.468 sec / Speedup: 1.237 / Efficiency: 62% / LogL: -54629
+Threads: 3 / Time: 5.531 sec / Speedup: 1.447 / Efficiency: 48% / LogL: -54629
+Determining AUTO threadcount: done in 20.0284 secs using 183.8% CPU
+BEST NUMBER OF THREADS: 2
+
+106  TIM3+F+I+I+R6 23865.632    578 48887.264    60839.478    51461.459
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.277 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55645
+Threads: 2 / Time: 5.423 sec / Speedup: 1.526 / Efficiency: 76% / LogL: -55645
+Threads: 3 / Time: 6.592 sec / Speedup: 1.256 / Efficiency: 42% / LogL: -55645
+Determining AUTO threadcount: done in 20.3473 secs using 177.7% CPU
+BEST NUMBER OF THREADS: 2
+
+127  TIM3e+I+I+R5  24228.654    573 49603.307    60386.979    52155.234
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.225 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55582
+Threads: 2 / Time: 6.666 sec / Speedup: 1.234 / Efficiency: 62% / LogL: -55582
+Threads: 3 / Time: 6.114 sec / Speedup: 1.345 / Efficiency: 45% / LogL: -55582
+Determining AUTO threadcount: done in 21.0333 secs using 187.4% CPU
+BEST NUMBER OF THREADS: 2
+
+128  TIM3e+I+I+R6  24228.667    575 49607.335    60834.454    52168.169
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.071 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -53609
+Threads: 2 / Time: 4.844 sec / Speedup: 1.666 / Efficiency: 83% / LogL: -53609
+Threads: 3 / Time: 4.770 sec / Speedup: 1.692 / Efficiency: 56% / LogL: -53609
+Threads: 4 / Time: 7.538 sec / Speedup: 1.071 / Efficiency: 27% / LogL: -53609
+Determining AUTO threadcount: done in 25.2607 secs using 209.7% CPU
+BEST NUMBER OF THREADS: 2
+
+149  TIM2+F+I+I+R5 23803.389    576 48758.778    60219.192    51324.066
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.163 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54317
+Threads: 2 / Time: 6.331 sec / Speedup: 1.290 / Efficiency: 64% / LogL: -54317
+Threads: 3 / Time: 7.398 sec / Speedup: 1.103 / Efficiency: 37% / LogL: -54317
+Determining AUTO threadcount: done in 21.9227 secs using 182.2% CPU
+BEST NUMBER OF THREADS: 2
+
+150  TIM2+F+I+I+R6 23799.550    578 48755.099    60707.314    51329.295
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.281 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55467
+Threads: 2 / Time: 5.774 sec / Speedup: 1.434 / Efficiency: 72% / LogL: -55467
+Threads: 3 / Time: 5.894 sec / Speedup: 1.405 / Efficiency: 47% / LogL: -55467
+Determining AUTO threadcount: done in 19.9769 secs using 182.2% CPU
+BEST NUMBER OF THREADS: 2
+
+171  TIM2e+I+I+R5  24151.918    573 49449.836    60233.508    52001.763
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.210 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56050
+Threads: 2 / Time: 6.808 sec / Speedup: 1.206 / Efficiency: 60% / LogL: -56050
+Threads: 3 / Time: 6.437 sec / Speedup: 1.275 / Efficiency: 43% / LogL: -56050
+Determining AUTO threadcount: done in 21.4844 secs using 190.5% CPU
+BEST NUMBER OF THREADS: 2
+
+172  TIM2e+I+I+R6  24150.178    575 49450.355    60677.474    52011.190
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.253 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54298
+Threads: 2 / Time: 6.100 sec / Speedup: 1.353 / Efficiency: 68% / LogL: -54298
+Threads: 3 / Time: 6.308 sec / Speedup: 1.308 / Efficiency: 44% / LogL: -54298
+Determining AUTO threadcount: done in 20.6865 secs using 185.7% CPU
+BEST NUMBER OF THREADS: 2
+
+193  TIM+F+I+I+R5  23776.685    576 48705.369    60165.783    51270.657
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.171 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54534
+Threads: 2 / Time: 8.319 sec / Speedup: 0.982 / Efficiency: 49% / LogL: -54534
+Determining AUTO threadcount: done in 16.5101 secs using 139.3% CPU
+BEST NUMBER OF THREADS: 1
+
+194  TIM+F+I+I+R6  23773.375    578 48702.751    60654.965    51276.946
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.230 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55359
+Threads: 2 / Time: 5.179 sec / Speedup: 1.589 / Efficiency: 79% / LogL: -55359
+Threads: 3 / Time: 5.878 sec / Speedup: 1.400 / Efficiency: 47% / LogL: -55359
+Determining AUTO threadcount: done in 19.3156 secs using 177.1% CPU
+BEST NUMBER OF THREADS: 2
+
+215  TIMe+I+I+R5   24094.159    573 49334.318    60117.990    51886.245
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.270 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56132
+Threads: 2 / Time: 6.191 sec / Speedup: 1.336 / Efficiency: 67% / LogL: -56132
+Threads: 3 / Time: 5.666 sec / Speedup: 1.460 / Efficiency: 49% / LogL: -56132
+Determining AUTO threadcount: done in 20.1537 secs using 182.4% CPU
+BEST NUMBER OF THREADS: 2
+
+216  TIMe+I+I+R6   24093.729    575 49337.457    60564.576    51898.292
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.221 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54278
+Threads: 2 / Time: 5.926 sec / Speedup: 1.387 / Efficiency: 69% / LogL: -54278
+Threads: 3 / Time: 5.576 sec / Speedup: 1.474 / Efficiency: 49% / LogL: -54278
+Determining AUTO threadcount: done in 19.7476 secs using 173.6% CPU
+BEST NUMBER OF THREADS: 2
+
+237  TPM3u+F+I+I+R5 23900.314    575 48950.627    60177.746    51511.462
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.243 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54432
+Threads: 2 / Time: 6.682 sec / Speedup: 1.234 / Efficiency: 62% / LogL: -54432
+Threads: 3 / Time: 6.511 sec / Speedup: 1.266 / Efficiency: 42% / LogL: -54432
+Determining AUTO threadcount: done in 21.466 secs using 189.3% CPU
+BEST NUMBER OF THREADS: 2
+
+238  TPM3u+F+I+I+R6 23896.447    577 48946.894    60648.859    51516.636
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.494 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55158
+Threads: 2 / Time: 6.771 sec / Speedup: 1.255 / Efficiency: 63% / LogL: -55158
+Threads: 3 / Time: 5.438 sec / Speedup: 1.562 / Efficiency: 52% / LogL: -55158
+Threads: 4 / Time: 5.573 sec / Speedup: 1.524 / Efficiency: 38% / LogL: -55158
+Determining AUTO threadcount: done in 26.3116 secs using 223% CPU
+BEST NUMBER OF THREADS: 3
+
+259  TPM3+I+I+R5   24228.758    572 49601.515    60174.289    52148.989
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+23 trees examined
+Threads: 1 / Time: 8.233 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55596
+Threads: 2 / Time: 7.164 sec / Speedup: 1.149 / Efficiency: 57% / LogL: -55596
+Threads: 3 / Time: 6.603 sec / Speedup: 1.247 / Efficiency: 42% / LogL: -55596
+Determining AUTO threadcount: done in 22.0256 secs using 190.4% CPU
+BEST NUMBER OF THREADS: 2
+
+260  TPM3+I+I+R6   24228.691    574 49605.383    60607.049    52161.764
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.113 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -53473
+Threads: 2 / Time: 5.594 sec / Speedup: 1.450 / Efficiency: 73% / LogL: -53473
+Threads: 3 / Time: 5.402 sec / Speedup: 1.502 / Efficiency: 50% / LogL: -53473
+Threads: 4 / Time: 5.365 sec / Speedup: 1.512 / Efficiency: 38% / LogL: -53473
+Determining AUTO threadcount: done in 24.5114 secs using 228.7% CPU
+BEST NUMBER OF THREADS: 2
+
+281  TPM2u+F+I+I+R5 23829.904    575 48809.808    60036.927    51370.643
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.072 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54654
+Threads: 2 / Time: 6.360 sec / Speedup: 1.269 / Efficiency: 63% / LogL: -54654
+Threads: 3 / Time: 6.769 sec / Speedup: 1.192 / Efficiency: 40% / LogL: -54654
+Determining AUTO threadcount: done in 21.2317 secs using 187.7% CPU
+BEST NUMBER OF THREADS: 2
+
+282  TPM2u+F+I+I+R6 23825.112    577 48804.224    60506.189    51373.966
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.364 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55189
+Threads: 2 / Time: 6.169 sec / Speedup: 1.356 / Efficiency: 68% / LogL: -55189
+Threads: 3 / Time: 5.860 sec / Speedup: 1.427 / Efficiency: 48% / LogL: -55189
+Determining AUTO threadcount: done in 20.4276 secs using 184% CPU
+BEST NUMBER OF THREADS: 2
+
+303  TPM2+I+I+R5   24154.939    572 49453.879    60026.653    52001.352
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.299 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55504
+Threads: 2 / Time: 7.408 sec / Speedup: 1.120 / Efficiency: 56% / LogL: -55504
+Threads: 3 / Time: 6.328 sec / Speedup: 1.312 / Efficiency: 44% / LogL: -55504
+Determining AUTO threadcount: done in 22.0675 secs using 186.2% CPU
+BEST NUMBER OF THREADS: 2
+
+304  TPM2+I+I+R6   24154.374    574 49456.748    60458.415    52013.129
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.336 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54580
+Threads: 2 / Time: 6.074 sec / Speedup: 1.372 / Efficiency: 69% / LogL: -54580
+Threads: 3 / Time: 5.469 sec / Speedup: 1.524 / Efficiency: 51% / LogL: -54580
+Threads: 4 / Time: 5.517 sec / Speedup: 1.511 / Efficiency: 38% / LogL: -54580
+Determining AUTO threadcount: done in 25.4305 secs using 229.1% CPU
+BEST NUMBER OF THREADS: 3
+
+325  K3Pu+F+I+I+R5 23803.703    575 48757.406    59984.525    51318.241
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.334 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54784
+Threads: 2 / Time: 6.079 sec / Speedup: 1.371 / Efficiency: 69% / LogL: -54784
+Threads: 3 / Time: 6.035 sec / Speedup: 1.381 / Efficiency: 46% / LogL: -54784
+Determining AUTO threadcount: done in 20.4836 secs using 188.7% CPU
+BEST NUMBER OF THREADS: 2
+
+326  K3Pu+F+I+I+R6 23799.740    577 48753.480    60455.445    51323.222
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.301 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55876
+Threads: 2 / Time: 6.388 sec / Speedup: 1.300 / Efficiency: 65% / LogL: -55876
+Threads: 3 / Time: 5.110 sec / Speedup: 1.624 / Efficiency: 54% / LogL: -55876
+Threads: 4 / Time: 5.062 sec / Speedup: 1.640 / Efficiency: 41% / LogL: -55876
+Determining AUTO threadcount: done in 24.8995 secs using 222.1% CPU
+BEST NUMBER OF THREADS: 3
+
+347  K3P+I+I+R5    24095.423    572 49334.847    59907.621    51882.320
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+21 trees examined
+Threads: 1 / Time: 8.354 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55879
+Threads: 2 / Time: 6.829 sec / Speedup: 1.223 / Efficiency: 61% / LogL: -55879
+Threads: 3 / Time: 6.367 sec / Speedup: 1.312 / Efficiency: 44% / LogL: -55879
+Determining AUTO threadcount: done in 21.5812 secs using 190.4% CPU
+BEST NUMBER OF THREADS: 2
+
+348  K3P+I+I+R6    24095.049    574 49338.098    60339.764    51894.478
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.093 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54287
+Threads: 2 / Time: 5.922 sec / Speedup: 1.367 / Efficiency: 68% / LogL: -54287
+Threads: 3 / Time: 5.100 sec / Speedup: 1.587 / Efficiency: 53% / LogL: -54287
+Threads: 4 / Time: 5.500 sec / Speedup: 1.471 / Efficiency: 37% / LogL: -54287
+Determining AUTO threadcount: done in 24.6539 secs using 225.8% CPU
+BEST NUMBER OF THREADS: 3
+
+369  TN+F+I+I+R5   23902.716    575 48955.432    60182.550    51516.266
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.142 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54382
+Threads: 2 / Time: 6.608 sec / Speedup: 1.232 / Efficiency: 62% / LogL: -54382
+Threads: 3 / Time: 6.881 sec / Speedup: 1.183 / Efficiency: 39% / LogL: -54382
+Determining AUTO threadcount: done in 21.6597 secs using 184.9% CPU
+BEST NUMBER OF THREADS: 2
+
+370  TN+F+I+I+R6   23898.167    577 48950.334    60652.299    51520.076
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.015 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55435
+Threads: 2 / Time: 5.800 sec / Speedup: 1.382 / Efficiency: 69% / LogL: -55435
+Threads: 3 / Time: 5.629 sec / Speedup: 1.424 / Efficiency: 47% / LogL: -55435
+Determining AUTO threadcount: done in 19.4729 secs using 186.5% CPU
+BEST NUMBER OF THREADS: 2
+
+391  TNe+I+I+R5    24369.094    572 49882.189    60454.963    52429.662
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.256 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -55682
+Threads: 2 / Time: 6.284 sec / Speedup: 1.314 / Efficiency: 66% / LogL: -55682
+Threads: 3 / Time: 6.116 sec / Speedup: 1.350 / Efficiency: 45% / LogL: -55682
+Determining AUTO threadcount: done in 20.6866 secs using 188.5% CPU
+BEST NUMBER OF THREADS: 2
+
+392  TNe+I+I+R6    24368.237    574 49884.474    60886.141    52440.855
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.092 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54404
+Threads: 2 / Time: 5.626 sec / Speedup: 1.438 / Efficiency: 72% / LogL: -54404
+Threads: 3 / Time: 5.423 sec / Speedup: 1.492 / Efficiency: 50% / LogL: -54404
+Determining AUTO threadcount: done in 19.1694 secs using 183.9% CPU
+BEST NUMBER OF THREADS: 2
+
+413  HKY+F+I+I+R5  23930.464    574 49008.928    60010.594    51565.308
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.341 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -54896
+Threads: 2 / Time: 6.276 sec / Speedup: 1.329 / Efficiency: 66% / LogL: -54896
+Threads: 3 / Time: 6.177 sec / Speedup: 1.350 / Efficiency: 45% / LogL: -54896
+Determining AUTO threadcount: done in 20.8329 secs using 185.3% CPU
+BEST NUMBER OF THREADS: 2
+
+414  HKY+F+I+I+R6  23924.852    576 49001.704    60462.117    51566.992
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.205 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56266
+Threads: 2 / Time: 5.885 sec / Speedup: 1.394 / Efficiency: 70% / LogL: -56266
+Threads: 3 / Time: 5.400 sec / Speedup: 1.519 / Efficiency: 51% / LogL: -56266
+Threads: 4 / Time: 5.280 sec / Speedup: 1.554 / Efficiency: 39% / LogL: -56266
+Determining AUTO threadcount: done in 24.8068 secs using 226.1% CPU
+BEST NUMBER OF THREADS: 3
+
+435  K2P+I+I+R5    24370.628    571 49883.256    60251.891    52426.276
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.256 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56250
+Threads: 2 / Time: 6.521 sec / Speedup: 1.266 / Efficiency: 63% / LogL: -56250
+Threads: 3 / Time: 6.139 sec / Speedup: 1.345 / Efficiency: 45% / LogL: -56250
+Determining AUTO threadcount: done in 20.9481 secs using 190.4% CPU
+BEST NUMBER OF THREADS: 2
+
+436  K2P+I+I+R6    24370.245    573 49886.491    60670.163    52438.418
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.069 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56583
+Threads: 2 / Time: 5.550 sec / Speedup: 1.454 / Efficiency: 73% / LogL: -56583
+Threads: 3 / Time: 5.143 sec / Speedup: 1.569 / Efficiency: 52% / LogL: -56583
+Threads: 4 / Time: 5.247 sec / Speedup: 1.538 / Efficiency: 38% / LogL: -56583
+Determining AUTO threadcount: done in 24.0453 secs using 228% CPU
+BEST NUMBER OF THREADS: 3
+
+457  F81+F+I+I+R5  24936.384    573 51018.769    61802.441    53570.696
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.113 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -56950
+Threads: 2 / Time: 6.364 sec / Speedup: 1.275 / Efficiency: 64% / LogL: -56950
+Threads: 3 / Time: 7.023 sec / Speedup: 1.155 / Efficiency: 39% / LogL: -56950
+Determining AUTO threadcount: done in 21.5284 secs using 189.9% CPU
+BEST NUMBER OF THREADS: 2
+
+458  F81+F+I+I+R6  24935.398    575 51020.795    62247.914    53581.630
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.163 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -58556
+Threads: 2 / Time: 5.461 sec / Speedup: 1.495 / Efficiency: 75% / LogL: -58556
+Threads: 3 / Time: 4.847 sec / Speedup: 1.684 / Efficiency: 56% / LogL: -58556
+Threads: 4 / Time: 4.854 sec / Speedup: 1.682 / Efficiency: 42% / LogL: -58556
+Determining AUTO threadcount: done in 23.3645 secs using 222.4% CPU
+BEST NUMBER OF THREADS: 3
+
+479  JC+I+I+R5     25165.147    570 51470.295    61641.232    54008.861
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+19 trees examined
+Threads: 1 / Time: 8.027 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -57917
+Threads: 2 / Time: 7.227 sec / Speedup: 1.111 / Efficiency: 56% / LogL: -57917
+Threads: 3 / Time: 5.662 sec / Speedup: 1.418 / Efficiency: 47% / LogL: -57917
+Determining AUTO threadcount: done in 20.9483 secs using 183.1% CPU
+BEST NUMBER OF THREADS: 2
+
+480  JC+I+I+R6     25164.170    572 51472.340    62045.114    54019.814
+Akaike Information Criterion:           GTR+F+I+I+R6
+Corrected Akaike Information Criterion: GTR+F+G4
+Bayesian Information Criterion:         GTR+F+I+I+R5
+Best-fit model: GTR+F+I+I+R5 chosen according to BIC
+
+All model information printed to V8.2023-05-19_trimmed_partition-codon.phy.model.gz
+CPU time for ModelFinder: 4413.281 seconds (1h:13m:33s)
+Wall-clock time for ModelFinder: 2215.118 seconds (0h:36m:55s)
+Generating 1000 samples for ultrafast bootstrap (seed: 358162)...
+
+NOTE: 24 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+20 trees examined
+Threads: 1 / Time: 8.284 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -57510
+Threads: 2 / Time: 5.391 sec / Speedup: 1.537 / Efficiency: 77% / LogL: -57510
+Threads: 3 / Time: 5.285 sec / Speedup: 1.567 / Efficiency: 52% / LogL: -57510
+Threads: 4 / Time: 5.130 sec / Speedup: 1.615 / Efficiency: 40% / LogL: -57510
+Determining AUTO threadcount: done in 24.129 secs using 221.9% CPU
+BEST NUMBER OF THREADS: 2
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23740.856
+2. Current log-likelihood: -23740.670
+Optimal log-likelihood: -23740.531
+Rate parameters:  A-C: 1.24366  A-G: 12.27731  A-T: 3.83073  C-G: 1.44718  C-T: 8.18041  G-T: 1.00000
+Base frequencies:  A: 0.212  C: 0.188  G: 0.164  T: 0.436
+Proportion of invariable sites: 0.277
+Site proportion and rates:  (0.159,0.079) (0.065,0.305) (0.109,0.769) (0.279,1.849) (0.111,3.312)
+Parameters optimization took 2 rounds (0.941 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.319861 secs using 195.4% CPU
+Computing ML distances took 0.333259 sec (of wall-clock time) 0.656250 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0013896 secs
+Constructing RapidNJ tree: done in 0.006225 secs
+Computing RapidNJ tree took 0.013215 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -23836.319
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.394 second
+Computing log-likelihood of 98 initial trees ... 2.521 seconds
+Current best score: -23740.531
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 1.62627 secs using 195% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -23727.094
+Optimizing NNI: done in 2.90044 secs using 192.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -23639.024
+Optimizing NNI: done in 3.26955 secs using 195.9% CPU
+Optimizing NNI: done in 3.41414 secs using 196.8% CPU
+Optimizing NNI: done in 2.26385 secs using 196.7% CPU
+Optimizing NNI: done in 3.12052 secs using 196.8% CPU
+Optimizing NNI: done in 2.91019 secs using 193.8% CPU
+Optimizing NNI: done in 2.95939 secs using 194.3% CPU
+Optimizing NNI: done in 2.90083 secs using 196.6% CPU
+Optimizing NNI: done in 3.80432 secs using 195.1% CPU
+Iteration 10 / LogL: -23684.981 / Time: 0h:1m:8s
+Optimizing NNI: done in 4.242 secs using 197.1% CPU
+Optimizing NNI: done in 2.85298 secs using 197.7% CPU
+Optimizing NNI: done in 3.36261 secs using 196.6% CPU
+Optimizing NNI: done in 3.66928 secs using 198% CPU
+Optimizing NNI: done in 2.82617 secs using 196.8% CPU
+Optimizing NNI: done in 3.38364 secs using 195.3% CPU
+Optimizing NNI: done in 3.16697 secs using 193.4% CPU
+Optimizing NNI: done in 3.27124 secs using 192.5% CPU
+Optimizing NNI: done in 3.18483 secs using 197.2% CPU
+Optimizing NNI: done in 3.39417 secs using 194.7% CPU
+Iteration 20 / LogL: -23715.450 / Time: 0h:1m:41s
+Finish initializing candidate tree set (20)
+Current best tree score: -23639.024 / CPU time: 75.881
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 3.10885 secs using 183.4% CPU
+Optimizing NNI: done in 2.09113 secs using 193.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -23618.630
+Optimizing NNI: done in 2.5289 secs using 194.6% CPU
+Optimizing NNI: done in 2.43748 secs using 190.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -23616.746
+Optimizing NNI: done in 2.47468 secs using 190.7% CPU
+Optimizing NNI: done in 2.70173 secs using 181.6% CPU
+Optimizing NNI: done in 1.68636 secs using 199.2% CPU
+Optimizing NNI: done in 1.89818 secs using 195.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -23604.359
+Optimizing NNI: done in 2.39467 secs using 198.4% CPU
+Optimizing NNI: done in 2.7463 secs using 190.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -23602.070
+Iteration 30 / LogL: -23602.070 / Time: 0h:2m:9s (0h:7m:25s left)
+Optimizing NNI: done in 2.25387 secs using 192% CPU
+Optimizing NNI: done in 1.85579 secs using 191.1% CPU
+Optimizing NNI: done in 2.2476 secs using 196.7% CPU
+Optimizing NNI: done in 1.93589 secs using 199.4% CPU
+Optimizing NNI: done in 2.17098 secs using 194.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -23586.620
+Optimizing NNI: done in 2.02933 secs using 194% CPU
+Optimizing NNI: done in 2.43854 secs using 187.1% CPU
+Optimizing NNI: done in 1.86913 secs using 193.1% CPU
+Optimizing NNI: done in 1.60119 secs using 196.1% CPU
+Optimizing NNI: done in 2.08327 secs using 194.3% CPU
+Iteration 40 / LogL: -23594.345 / Time: 0h:2m:30s (0h:6m:6s left)
+Optimizing NNI: done in 1.88445 secs using 198.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -23581.429
+Optimizing NNI: done in 2.17217 secs using 193.5% CPU
+Optimizing NNI: done in 2.53829 secs using 186.5% CPU
+Optimizing NNI: done in 1.89547 secs using 196.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -23572.786
+Optimizing NNI: done in 2.10664 secs using 195.8% CPU
+Optimizing NNI: done in 3.05471 secs using 185.2% CPU
+Optimizing NNI: done in 2.52325 secs using 185.8% CPU
+Optimizing NNI: done in 2.35452 secs using 193.8% CPU
+Optimizing NNI: done in 2.13965 secs using 195.7% CPU
+Optimizing NNI: done in 1.88527 secs using 196.4% CPU
+Iteration 50 / LogL: -23602.186 / Time: 0h:2m:54s (0h:5m:35s left)
+Optimizing NNI: done in 2.659 secs using 196.9% CPU
+Optimizing NNI: done in 2.31572 secs using 193% CPU
+Optimizing NNI: done in 2.1234 secs using 195.7% CPU
+Optimizing NNI: done in 2.94448 secs using 197.4% CPU
+Optimizing NNI: done in 2.62293 secs using 194.2% CPU
+Optimizing NNI: done in 1.99371 secs using 196.7% CPU
+Optimizing NNI: done in 2.43781 secs using 194.8% CPU
+Optimizing NNI: done in 2.14998 secs using 194% CPU
+Optimizing NNI: done in 2.30533 secs using 193.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -23572.483
+Optimizing NNI: done in 2.19931 secs using 197.5% CPU
+Iteration 60 / LogL: -23587.874 / Time: 0h:3m:19s (0h:5m:34s left)
+Optimizing NNI: done in 2.30113 secs using 190.1% CPU
+Optimizing NNI: done in 2.32775 secs using 195.3% CPU
+Optimizing NNI: done in 2.42098 secs using 197.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -23571.942
+Optimizing NNI: done in 2.34128 secs using 191.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -23571.142
+Optimizing NNI: done in 2.85785 secs using 195.7% CPU
+Optimizing NNI: done in 2.51761 secs using 191.8% CPU
+Optimizing NNI: done in 2.40836 secs using 194.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 67: -23567.383
+Optimizing NNI: done in 2.0352 secs using 198.1% CPU
+Optimizing NNI: done in 2.48384 secs using 192.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -23564.046
+Optimizing NNI: done in 2.77016 secs using 182.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -23560.355
+Iteration 70 / LogL: -23560.355 / Time: 0h:3m:47s (0h:5m:29s left)
+Optimizing NNI: done in 3.5725 secs using 189.4% CPU
+Optimizing NNI: done in 2.68221 secs using 191.1% CPU
+Optimizing NNI: done in 3.42465 secs using 184.8% CPU
+Optimizing NNI: done in 2.58888 secs using 196.8% CPU
+Optimizing NNI: done in 1.8174 secs using 197.7% CPU
+Optimizing NNI: done in 2.13497 secs using 196.1% CPU
+Optimizing NNI: done in 2.56395 secs using 196.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 77: -23554.649
+Optimizing NNI: done in 2.45042 secs using 188.7% CPU
+Optimizing NNI: done in 2.5622 secs using 186% CPU
+Optimizing NNI: done in 2.07935 secs using 196.9% CPU
+Iteration 80 / LogL: -23599.795 / Time: 0h:4m:13s (0h:5m:11s left)
+Optimizing NNI: done in 2.43571 secs using 195.7% CPU
+Optimizing NNI: done in 1.89965 secs using 195.8% CPU
+Optimizing NNI: done in 2.01751 secs using 194.4% CPU
+Optimizing NNI: done in 1.92204 secs using 197.5% CPU
+Optimizing NNI: done in 2.68951 secs using 194.6% CPU
+Optimizing NNI: done in 3.09706 secs using 195.7% CPU
+Optimizing NNI: done in 1.92166 secs using 194.3% CPU
+Optimizing NNI: done in 2.62988 secs using 196.1% CPU
+Optimizing NNI: done in 2.81737 secs using 196.3% CPU
+Optimizing NNI: done in 3.07496 secs using 196.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 90: -23554.472
+Iteration 90 / LogL: -23554.472 / Time: 0h:4m:39s (0h:5m:13s left)
+Optimizing NNI: done in 2.22297 secs using 192.6% CPU
+Optimizing NNI: done in 2.60748 secs using 191.8% CPU
+Optimizing NNI: done in 2.91459 secs using 192.5% CPU
+Optimizing NNI: done in 3.36936 secs using 185.5% CPU
+Optimizing NNI: done in 1.87031 secs using 193.8% CPU
+Optimizing NNI: done in 2.28061 secs using 195.3% CPU
+Optimizing NNI: done in 2.17947 secs using 195% CPU
+Optimizing NNI: done in 2.45785 secs using 195.8% CPU
+Optimizing NNI: done in 2.09174 secs using 198% CPU
+Optimizing NNI: done in 2.30966 secs using 198.2% CPU
+Iteration 100 / LogL: -23604.312 / Time: 0h:5m:3s (0h:4m:36s left)
+Optimizing NNI: done in 1.73627 secs using 196.2% CPU
+Optimizing NNI: done in 2.34544 secs using 197.9% CPU
+Optimizing NNI: done in 1.91074 secs using 199.5% CPU
+Optimizing NNI: done in 2.2863 secs using 194.8% CPU
+Optimizing NNI: done in 1.73397 secs using 197.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 105: -23552.654
+Optimizing NNI: done in 2.16268 secs using 197.2% CPU
+Optimizing NNI: done in 1.90306 secs using 192.9% CPU
+Optimizing NNI: done in 2.38009 secs using 196.3% CPU
+Optimizing NNI: done in 2.05174 secs using 198.8% CPU
+Optimizing NNI: done in 2.33759 secs using 196.5% CPU
+Iteration 110 / LogL: -23555.661 / Time: 0h:5m:25s (0h:4m:43s left)
+Optimizing NNI: done in 2.78982 secs using 193.8% CPU
+Optimizing NNI: done in 2.03805 secs using 194.7% CPU
+Optimizing NNI: done in 2.00466 secs using 194.1% CPU
+Optimizing NNI: done in 2.09671 secs using 195.2% CPU
+Optimizing NNI: done in 2.09483 secs using 197.7% CPU
+Optimizing NNI: done in 1.82607 secs using 196.8% CPU
+Optimizing NNI: done in 1.72478 secs using 198.4% CPU
+Optimizing NNI: done in 1.83416 secs using 195.1% CPU
+Optimizing NNI: done in 2.15435 secs using 196.5% CPU
+Optimizing NNI: done in 2.84916 secs using 189.2% CPU
+Iteration 120 / LogL: -23559.674 / Time: 0h:5m:47s (0h:4m:7s left)
+Optimizing NNI: done in 2.62152 secs using 190.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -23548.907
+Optimizing NNI: done in 2.47967 secs using 193.4% CPU
+Optimizing NNI: done in 2.56349 secs using 193.8% CPU
+Optimizing NNI: done in 2.55841 secs using 198.5% CPU
+Optimizing NNI: done in 2.01916 secs using 199.7% CPU
+Optimizing NNI: done in 2.79764 secs using 194.9% CPU
+Optimizing NNI: done in 2.55108 secs using 197.8% CPU
+Optimizing NNI: done in 2.62322 secs using 195.4% CPU
+Optimizing NNI: done in 2.49339 secs using 196.8% CPU
+Optimizing NNI: done in 2.05505 secs using 197.7% CPU
+Iteration 130 / LogL: -23555.577 / Time: 0h:6m:12s (0h:4m:22s left)
+Optimizing NNI: done in 2.28706 secs using 198.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 131: -23545.558
+Optimizing NNI: done in 2.27303 secs using 197.3% CPU
+Optimizing NNI: done in 2.97847 secs using 191.5% CPU
+Optimizing NNI: done in 2.52728 secs using 195.4% CPU
+Optimizing NNI: done in 2.02446 secs using 198.4% CPU
+Optimizing NNI: done in 2.23897 secs using 193.3% CPU
+Optimizing NNI: done in 2.37877 secs using 194.4% CPU
+Optimizing NNI: done in 2.59317 secs using 192.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 138: -23544.100
+Optimizing NNI: done in 1.6763 secs using 193.9% CPU
+Optimizing NNI: done in 2.56967 secs using 193.4% CPU
+Iteration 140 / LogL: -23551.613 / Time: 0h:6m:37s (0h:4m:40s left)
+Optimizing NNI: done in 2.8436 secs using 192.9% CPU
+Optimizing NNI: done in 2.07248 secs using 198.3% CPU
+Optimizing NNI: done in 1.73986 secs using 196.7% CPU
+Optimizing NNI: done in 1.78188 secs using 197.3% CPU
+Optimizing NNI: done in 2.47953 secs using 190.9% CPU
+Optimizing NNI: done in 2.58822 secs using 187.7% CPU
+Optimizing NNI: done in 2.11846 secs using 194.7% CPU
+Optimizing NNI: done in 1.20326 secs using 197.4% CPU
+Optimizing NNI: done in 1.87934 secs using 197% CPU
+Optimizing NNI: done in 2.54923 secs using 194.3% CPU
+Iteration 150 / LogL: -23565.273 / Time: 0h:6m:58s (0h:4m:7s left)
+Optimizing NNI: done in 1.60859 secs using 198.2% CPU
+Optimizing NNI: done in 2.42787 secs using 194.4% CPU
+Optimizing NNI: done in 2.61952 secs using 198% CPU
+Optimizing NNI: done in 2.32154 secs using 197.2% CPU
+Optimizing NNI: done in 1.20156 secs using 197.7% CPU
+Optimizing NNI: done in 2.05519 secs using 194.6% CPU
+Optimizing NNI: done in 2.4095 secs using 197.8% CPU
+Optimizing NNI: done in 2.34227 secs using 198.1% CPU
+Optimizing NNI: done in 1.78822 secs using 198.3% CPU
+Optimizing NNI: done in 2.21796 secs using 198.7% CPU
+Iteration 160 / LogL: -23580.434 / Time: 0h:7m:20s (0h:3m:35s left)
+Optimizing NNI: done in 2.2522 secs using 194.3% CPU
+Optimizing NNI: done in 2.62152 secs using 196.1% CPU
+Optimizing NNI: done in 1.91372 secs using 192.7% CPU
+Optimizing NNI: done in 1.91799 secs using 199.6% CPU
+Optimizing NNI: done in 1.76967 secs using 201.3% CPU
+Optimizing NNI: done in 2.02491 secs using 196.8% CPU
+Optimizing NNI: done in 2.03261 secs using 198.3% CPU
+Optimizing NNI: done in 2.17905 secs using 197.2% CPU
+Optimizing NNI: done in 2.29195 secs using 198.4% CPU
+Optimizing NNI: done in 2.16411 secs using 192.1% CPU
+Iteration 170 / LogL: -23558.812 / Time: 0h:7m:41s (0h:3m:5s left)
+Optimizing NNI: done in 2.42702 secs using 197% CPU
+Optimizing NNI: done in 2.15772 secs using 199.1% CPU
+Optimizing NNI: done in 2.80053 secs using 190.8% CPU
+Optimizing NNI: done in 2.48088 secs using 183.9% CPU
+Optimizing NNI: done in 1.77273 secs using 194.8% CPU
+Optimizing NNI: done in 2.97047 secs using 195.2% CPU
+Optimizing NNI: done in 2.0539 secs using 196.3% CPU
+Optimizing NNI: done in 2.07671 secs using 198.6% CPU
+Optimizing NNI: done in 2.12186 secs using 195.9% CPU
+Optimizing NNI: done in 1.94237 secs using 195.5% CPU
+Iteration 180 / LogL: -23568.214 / Time: 0h:8m:4s (0h:2m:37s left)
+Optimizing NNI: done in 2.11115 secs using 193.2% CPU
+Optimizing NNI: done in 2.07676 secs using 199.4% CPU
+Optimizing NNI: done in 2.54029 secs using 198.7% CPU
+Optimizing NNI: done in 2.30107 secs using 196.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 184: -23543.708
+Optimizing NNI: done in 2.76451 secs using 195% CPU
+Optimizing NNI: done in 2.10102 secs using 190.4% CPU
+Optimizing NNI: done in 1.75722 secs using 198.3% CPU
+Optimizing NNI: done in 2.14946 secs using 196.3% CPU
+Optimizing NNI: done in 1.7214 secs using 194.2% CPU
+Optimizing NNI: done in 2.17792 secs using 197.3% CPU
+Iteration 190 / LogL: -23552.175 / Time: 0h:8m:26s (0h:4m:12s left)
+Optimizing NNI: done in 2.34535 secs using 195.2% CPU
+Optimizing NNI: done in 2.10582 secs using 198.1% CPU
+Optimizing NNI: done in 1.90122 secs using 193.1% CPU
+Optimizing NNI: done in 2.30846 secs using 197.6% CPU
+Optimizing NNI: done in 2.68217 secs using 197.5% CPU
+Optimizing NNI: done in 2.12272 secs using 199.5% CPU
+Optimizing NNI: done in 1.63359 secs using 194.2% CPU
+Optimizing NNI: done in 2.29097 secs using 196.4% CPU
+Optimizing NNI: done in 2.14123 secs using 197% CPU
+Optimizing NNI: done in 2.86799 secs using 195% CPU
+Iteration 200 / LogL: -23550.740 / Time: 0h:8m:49s (0h:3m:43s left)
+Optimizing NNI: done in 3.27178 secs using 184.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 201: -23542.197
+Optimizing NNI: done in 2.35113 secs using 194.7% CPU
+Optimizing NNI: done in 2.88387 secs using 192.9% CPU
+Optimizing NNI: done in 1.96407 secs using 194.1% CPU
+Optimizing NNI: done in 1.98845 secs using 196.4% CPU
+Optimizing NNI: done in 2.35836 secs using 197.4% CPU
+Optimizing NNI: done in 2.03309 secs using 195.2% CPU
+Optimizing NNI: done in 2.24827 secs using 193.9% CPU
+Optimizing NNI: done in 1.85821 secs using 196.8% CPU
+Optimizing NNI: done in 2.08441 secs using 199.4% CPU
+Iteration 210 / LogL: -23547.761 / Time: 0h:9m:13s (0h:4m:1s left)
+Optimizing NNI: done in 2.09186 secs using 195% CPU
+Optimizing NNI: done in 1.95939 secs using 198.6% CPU
+Optimizing NNI: done in 2.13691 secs using 196.7% CPU
+Optimizing NNI: done in 2.1395 secs using 195% CPU
+Optimizing NNI: done in 1.59475 secs using 198.9% CPU
+Optimizing NNI: done in 2.43926 secs using 195.4% CPU
+Optimizing NNI: done in 3.34904 secs using 193.2% CPU
+Optimizing NNI: done in 2.60162 secs using 197% CPU
+Optimizing NNI: done in 2.03723 secs using 196.3% CPU
+Optimizing NNI: done in 2.25587 secs using 196% CPU
+Iteration 220 / LogL: -23567.823 / Time: 0h:9m:36s (0h:3m:33s left)
+Optimizing NNI: done in 2.33934 secs using 193% CPU
+Optimizing NNI: done in 2.33025 secs using 198.5% CPU
+Optimizing NNI: done in 2.0574 secs using 197.5% CPU
+Optimizing NNI: done in 1.85373 secs using 198.1% CPU
+Optimizing NNI: done in 1.89009 secs using 193.4% CPU
+Optimizing NNI: done in 2.99046 secs using 190.7% CPU
+Optimizing NNI: done in 2.78842 secs using 183.8% CPU
+Optimizing NNI: done in 2.46804 secs using 195.6% CPU
+Optimizing NNI: done in 2.63928 secs using 196.6% CPU
+Optimizing NNI: done in 2.25248 secs using 197.7% CPU
+Iteration 230 / LogL: -23544.115 / Time: 0h:10m:0s (0h:3m:6s left)
+Optimizing NNI: done in 1.9023 secs using 195.5% CPU
+Optimizing NNI: done in 2.1855 secs using 193.7% CPU
+Optimizing NNI: done in 1.83712 secs using 194.8% CPU
+Optimizing NNI: done in 1.79257 secs using 198.7% CPU
+Optimizing NNI: done in 2.33261 secs using 197.6% CPU
+Optimizing NNI: done in 2.50228 secs using 194.8% CPU
+Optimizing NNI: done in 2.07776 secs using 197% CPU
+Optimizing NNI: done in 2.30519 secs using 191.1% CPU
+Optimizing NNI: done in 2.17105 secs using 192.2% CPU
+Optimizing NNI: done in 2.35621 secs using 191.6% CPU
+Iteration 240 / LogL: -23578.477 / Time: 0h:10m:22s (0h:2m:38s left)
+Optimizing NNI: done in 1.81895 secs using 201% CPU
+Optimizing NNI: done in 2.66109 secs using 196.7% CPU
+Optimizing NNI: done in 1.80018 secs using 197.9% CPU
+Optimizing NNI: done in 2.40123 secs using 197.8% CPU
+Optimizing NNI: done in 2.49643 secs using 197.8% CPU
+Optimizing NNI: done in 2.30081 secs using 195.6% CPU
+Optimizing NNI: done in 2.76289 secs using 196.8% CPU
+Optimizing NNI: done in 2.56232 secs using 195.7% CPU
+Optimizing NNI: done in 2.23607 secs using 195.7% CPU
+Optimizing NNI: done in 2.36709 secs using 197.4% CPU
+Iteration 250 / LogL: -23555.127 / Time: 0h:10m:45s (0h:2m:12s left)
+Optimizing NNI: done in 2.14502 secs using 196.7% CPU
+Optimizing NNI: done in 2.1342 secs using 185.2% CPU
+Optimizing NNI: done in 3.0473 secs using 185.1% CPU
+Optimizing NNI: done in 1.98745 secs using 195% CPU
+Optimizing NNI: done in 2.16731 secs using 192.5% CPU
+Optimizing NNI: done in 1.95699 secs using 198% CPU
+Optimizing NNI: done in 2.14568 secs using 198.8% CPU
+Optimizing NNI: done in 2.77858 secs using 198.5% CPU
+Optimizing NNI: done in 2.41833 secs using 199% CPU
+Optimizing NNI: done in 1.94018 secs using 196.5% CPU
+Iteration 260 / LogL: -23548.352 / Time: 0h:11m:9s (0h:1m:45s left)
+Optimizing NNI: done in 2.11469 secs using 192.8% CPU
+Optimizing NNI: done in 2.25278 secs using 194.9% CPU
+Optimizing NNI: done in 1.84703 secs using 197.1% CPU
+Optimizing NNI: done in 1.9782 secs using 195.1% CPU
+Optimizing NNI: done in 2.70797 secs using 195% CPU
+Optimizing NNI: done in 2.02006 secs using 196.5% CPU
+Optimizing NNI: done in 1.90343 secs using 197% CPU
+Optimizing NNI: done in 1.90684 secs using 194.2% CPU
+Optimizing NNI: done in 2.99669 secs using 196.6% CPU
+Optimizing NNI: done in 1.95425 secs using 199.1% CPU
+Iteration 270 / LogL: -23565.478 / Time: 0h:11m:30s (0h:1m:19s left)
+Optimizing NNI: done in 1.51247 secs using 198.4% CPU
+Optimizing NNI: done in 1.79547 secs using 194.9% CPU
+Optimizing NNI: done in 2.36508 secs using 196.2% CPU
+Optimizing NNI: done in 1.76534 secs using 199.1% CPU
+Optimizing NNI: done in 2.01089 secs using 198.1% CPU
+Optimizing NNI: done in 2.38288 secs using 196.7% CPU
+Optimizing NNI: done in 2.15117 secs using 196.8% CPU
+Optimizing NNI: done in 2.2183 secs using 196.5% CPU
+Optimizing NNI: done in 2.64312 secs using 195.7% CPU
+Optimizing NNI: done in 2.48284 secs using 185% CPU
+Iteration 280 / LogL: -23596.908 / Time: 0h:11m:52s (0h:0m:53s left)
+Optimizing NNI: done in 3.24948 secs using 184.2% CPU
+Optimizing NNI: done in 2.09161 secs using 195.7% CPU
+Optimizing NNI: done in 2.11936 secs using 194.6% CPU
+Optimizing NNI: done in 2.12896 secs using 193.8% CPU
+Optimizing NNI: done in 2.29302 secs using 197.6% CPU
+Optimizing NNI: done in 2.43243 secs using 192.7% CPU
+Optimizing NNI: done in 2.24449 secs using 193.5% CPU
+Optimizing NNI: done in 2.43141 secs using 197.3% CPU
+Optimizing NNI: done in 2.07443 secs using 198.1% CPU
+Optimizing NNI: done in 2.04728 secs using 196.1% CPU
+Iteration 290 / LogL: -23574.372 / Time: 0h:12m:16s (0h:0m:28s left)
+Optimizing NNI: done in 2.07924 secs using 196.1% CPU
+Optimizing NNI: done in 2.24852 secs using 198.7% CPU
+Optimizing NNI: done in 1.90395 secs using 197.8% CPU
+Optimizing NNI: done in 1.96664 secs using 193.9% CPU
+Optimizing NNI: done in 1.88237 secs using 196.7% CPU
+Optimizing NNI: done in 2.83323 secs using 195.8% CPU
+Optimizing NNI: done in 2.41446 secs using 197.4% CPU
+Optimizing NNI: done in 1.91144 secs using 193.7% CPU
+Optimizing NNI: done in 2.11052 secs using 196.9% CPU
+Optimizing NNI: done in 1.76093 secs using 192.5% CPU
+Iteration 300 / LogL: -23561.179 / Time: 0h:12m:37s (0h:0m:2s left)
+Optimizing NNI: done in 2.23986 secs using 200.2% CPU
+Optimizing NNI: done in 2.41001 secs using 195.8% CPU
+Refining ufboot trees with NNI 1 branch...
+Optimizing NNI: done in 0.133289 secs using 187.6% CPU
+Optimizing NNI: done in 0.118112 secs using 185.2% CPU
+Optimizing NNI: done in 0.114289 secs using 191.4% CPU
+Optimizing NNI: done in 0.143441 secs using 196.1% CPU
+Optimizing NNI: done in 0.101497 secs using 215.5% CPU
+Optimizing NNI: done in 0.129686 secs using 192.8% CPU
+Optimizing NNI: done in 0.100208 secs using 187.1% CPU
+Optimizing NNI: done in 0.169636 secs using 184.2% CPU
+Optimizing NNI: done in 0.134789 secs using 185.5% CPU
+Optimizing NNI: done in 0.121593 secs using 205.6% CPU
+Optimizing NNI: done in 0.10423 secs using 209.9% CPU
+Optimizing NNI: done in 0.143116 secs using 196.5% CPU
+Optimizing NNI: done in 0.0912644 secs using 205.4% CPU
+Optimizing NNI: done in 0.203809 secs using 199.3% CPU
+Optimizing NNI: done in 0.108822 secs using 201% CPU
+Optimizing NNI: done in 0.165357 secs using 207.9% CPU
+Optimizing NNI: done in 0.110047 secs using 198.8% CPU
+Optimizing NNI: done in 0.148933 secs using 209.8% CPU
+Optimizing NNI: done in 0.086395 secs using 217% CPU
+Optimizing NNI: done in 0.165234 secs using 198.6% CPU
+Optimizing NNI: done in 0.134865 secs using 185.4% CPU
+Optimizing NNI: done in 0.174797 secs using 178.8% CPU
+Optimizing NNI: done in 0.100031 secs using 187.4% CPU
+Optimizing NNI: done in 0.13924 secs using 202% CPU
+Optimizing NNI: done in 0.128632 secs using 218.6% CPU
+Optimizing NNI: done in 0.160584 secs using 214.1% CPU
+Optimizing NNI: done in 0.0917375 secs using 204.4% CPU
+Optimizing NNI: done in 0.152901 secs using 204.4% CPU
+Optimizing NNI: done in 0.111318 secs using 196.5% CPU
+Optimizing NNI: done in 0.125127 secs using 174.8% CPU
+Optimizing NNI: done in 0.105118 secs using 193.2% CPU
+Optimizing NNI: done in 0.126143 secs using 223% CPU
+Optimizing NNI: done in 0.125493 secs using 199.2% CPU
+Optimizing NNI: done in 0.124309 secs using 201.1% CPU
+Optimizing NNI: done in 0.160929 secs using 194.2% CPU
+Optimizing NNI: done in 0.112371 secs using 180.8% CPU
+Optimizing NNI: done in 0.139547 secs using 201.5% CPU
+Optimizing NNI: done in 0.107645 secs using 203.2% CPU
+Optimizing NNI: done in 0.0839242 secs using 223.4% CPU
+Optimizing NNI: done in 0.161309 secs using 213.1% CPU
+Optimizing NNI: done in 0.129202 secs using 217.7% CPU
+Optimizing NNI: done in 0.128449 secs using 194.6% CPU
+Optimizing NNI: done in 0.119791 secs using 208.7% CPU
+Optimizing NNI: done in 0.149919 secs using 187.6% CPU
+Optimizing NNI: done in 0.0899036 secs using 208.6% CPU
+Optimizing NNI: done in 0.130709 secs using 167.4% CPU
+Optimizing NNI: done in 0.154849 secs using 201.8% CPU
+Optimizing NNI: done in 0.114898 secs using 204% CPU
+Optimizing NNI: done in 0.184712 secs using 203% CPU
+Optimizing NNI: done in 0.211502 secs using 103.4% CPU
+Optimizing NNI: done in 0.193467 secs using 193.8% CPU
+Optimizing NNI: done in 0.228538 secs using 164.1% CPU
+Optimizing NNI: done in 0.163651 secs using 200.5% CPU
+Optimizing NNI: done in 0.108236 secs using 202.1% CPU
+Optimizing NNI: done in 0.119332 secs using 183.3% CPU
+Optimizing NNI: done in 0.185858 secs using 201.8% CPU
+Optimizing NNI: done in 0.124144 secs using 188.8% CPU
+Optimizing NNI: done in 0.186203 secs using 167.8% CPU
+Optimizing NNI: done in 0.351282 secs using 151.2% CPU
+Optimizing NNI: done in 0.174797 secs using 196.7% CPU
+Optimizing NNI: done in 0.164255 secs using 190.3% CPU
+Optimizing NNI: done in 0.118601 secs using 210.8% CPU
+Optimizing NNI: done in 0.21669 secs using 158.6% CPU
+Optimizing NNI: done in 0.204528 secs using 183.3% CPU
+Optimizing NNI: done in 0.135113 secs using 185% CPU
+Optimizing NNI: done in 0.171771 secs using 200.1% CPU
+Optimizing NNI: done in 0.180088 secs using 190.9% CPU
+Optimizing NNI: done in 0.10372 secs using 180.8% CPU
+Optimizing NNI: done in 0.141806 secs using 198.3% CPU
+Optimizing NNI: done in 0.146529 secs using 213.3% CPU
+Optimizing NNI: done in 0.148135 secs using 200.4% CPU
+Optimizing NNI: done in 0.133479 secs using 210.7% CPU
+Optimizing NNI: done in 0.0923605 secs using 203% CPU
+Optimizing NNI: done in 0.110397 secs using 226.5% CPU
+Optimizing NNI: done in 0.160199 secs using 214.6% CPU
+Optimizing NNI: done in 0.155082 secs using 201.5% CPU
+Optimizing NNI: done in 0.16003 secs using 195.3% CPU
+Optimizing NNI: done in 0.179026 secs using 192% CPU
+Optimizing NNI: done in 0.114957 secs using 190.3% CPU
+Optimizing NNI: done in 0.144348 secs using 173.2% CPU
+Optimizing NNI: done in 0.16405 secs using 209.5% CPU
+Optimizing NNI: done in 0.102051 secs using 214.4% CPU
+Optimizing NNI: done in 0.102425 secs using 213.6% CPU
+Optimizing NNI: done in 0.108741 secs using 186.8% CPU
+Optimizing NNI: done in 0.13393 secs using 210% CPU
+Optimizing NNI: done in 0.113584 secs using 192.6% CPU
+Optimizing NNI: done in 0.135428 secs using 207.7% CPU
+Optimizing NNI: done in 0.191338 secs using 187.8% CPU
+Optimizing NNI: done in 0.154695 secs using 202% CPU
+Optimizing NNI: done in 0.135235 secs using 208% CPU
+Optimizing NNI: done in 0.184415 secs using 203.3% CPU
+Optimizing NNI: done in 0.196276 secs using 207% CPU
+Optimizing NNI: done in 0.107792 secs using 202.9% CPU
+Optimizing NNI: done in 0.131468 secs using 190.2% CPU
+Optimizing NNI: done in 0.10973 secs using 199.4% CPU
+Optimizing NNI: done in 0.177454 secs using 193.7% CPU
+Optimizing NNI: done in 0.119166 secs using 170.5% CPU
+Optimizing NNI: done in 0.120588 secs using 207.3% CPU
+Optimizing NNI: done in 0.123346 secs using 202.7% CPU
+Optimizing NNI: done in 0.105527 secs using 177.7% CPU
+100 samples done
+Optimizing NNI: done in 0.198133 secs using 205% CPU
+Optimizing NNI: done in 0.0815974 secs using 229.8% CPU
+Optimizing NNI: done in 0.12188 secs using 205.1% CPU
+Optimizing NNI: done in 0.199445 secs using 195.9% CPU
+Optimizing NNI: done in 0.139461 secs using 201.7% CPU
+Optimizing NNI: done in 0.195822 secs using 183.5% CPU
+Optimizing NNI: done in 0.11449 secs using 191.1% CPU
+Optimizing NNI: done in 0.110418 secs using 198.1% CPU
+Optimizing NNI: done in 0.131427 secs using 190.2% CPU
+Optimizing NNI: done in 0.103566 secs using 181% CPU
+Optimizing NNI: done in 0.155754 secs using 200.6% CPU
+Optimizing NNI: done in 0.131042 secs using 190.8% CPU
+Optimizing NNI: done in 0.0957881 secs using 195.7% CPU
+Optimizing NNI: done in 0.166505 secs using 197.1% CPU
+Optimizing NNI: done in 0.116256 secs using 215% CPU
+Optimizing NNI: done in 0.16482 secs using 199.1% CPU
+Optimizing NNI: done in 0.107713 secs using 203.1% CPU
+Optimizing NNI: done in 0.101654 secs using 215.2% CPU
+Optimizing NNI: done in 0.132482 secs using 212.3% CPU
+Optimizing NNI: done in 0.0869675 secs using 179.7% CPU
+Optimizing NNI: done in 0.0958995 secs using 228.1% CPU
+Optimizing NNI: done in 0.123605 secs using 202.3% CPU
+Optimizing NNI: done in 0.135979 secs using 206.8% CPU
+Optimizing NNI: done in 0.0989154 secs using 189.6% CPU
+Optimizing NNI: done in 0.0821976 secs using 190.1% CPU
+Optimizing NNI: done in 0.158396 secs using 197.3% CPU
+Optimizing NNI: done in 0.113932 secs using 219.4% CPU
+Optimizing NNI: done in 0.144457 secs using 194.7% CPU
+Optimizing NNI: done in 0.131035 secs using 190.8% CPU
+Optimizing NNI: done in 0.0946339 secs using 198.1% CPU
+Optimizing NNI: done in 0.0881195 secs using 177.3% CPU
+Optimizing NNI: done in 0.0980362 secs using 191.3% CPU
+Optimizing NNI: done in 0.122055 secs using 204.8% CPU
+Optimizing NNI: done in 0.108092 secs using 159% CPU
+Optimizing NNI: done in 0.126891 secs using 197% CPU
+Optimizing NNI: done in 0.145718 secs using 193% CPU
+Optimizing NNI: done in 0.125735 secs using 198.8% CPU
+Optimizing NNI: done in 0.107456 secs using 203.6% CPU
+Optimizing NNI: done in 0.122017 secs using 179.3% CPU
+Optimizing NNI: done in 0.107039 secs using 175.2% CPU
+Optimizing NNI: done in 0.152392 secs using 205.1% CPU
+Optimizing NNI: done in 0.146877 secs using 191.5% CPU
+Optimizing NNI: done in 0.122568 secs using 204% CPU
+Optimizing NNI: done in 0.156864 secs using 199.2% CPU
+Optimizing NNI: done in 0.108578 secs using 201.5% CPU
+Optimizing NNI: done in 0.129463 secs using 193.1% CPU
+Optimizing NNI: done in 0.115282 secs using 216.9% CPU
+Optimizing NNI: done in 0.106572 secs using 205.3% CPU
+Optimizing NNI: done in 0.110693 secs using 197.6% CPU
+Optimizing NNI: done in 0.13458 secs using 209% CPU
+Optimizing NNI: done in 0.100693 secs using 186.2% CPU
+Optimizing NNI: done in 0.0966148 secs using 194.1% CPU
+Optimizing NNI: done in 0.159382 secs using 196.1% CPU
+Optimizing NNI: done in 0.145383 secs using 204.2% CPU
+Optimizing NNI: done in 0.0897046 secs using 174.2% CPU
+Optimizing NNI: done in 0.15938 secs using 196.1% CPU
+Optimizing NNI: done in 0.101495 secs using 184.7% CPU
+Optimizing NNI: done in 0.137832 secs using 204.1% CPU
+Optimizing NNI: done in 0.107199 secs using 174.9% CPU
+Optimizing NNI: done in 0.137663 secs using 181.6% CPU
+Optimizing NNI: done in 0.108768 secs using 201.1% CPU
+Optimizing NNI: done in 0.125557 secs using 199.1% CPU
+Optimizing NNI: done in 0.127388 secs using 184% CPU
+Optimizing NNI: done in 0.101695 secs using 184.4% CPU
+Optimizing NNI: done in 0.120413 secs using 207.6% CPU
+Optimizing NNI: done in 0.159767 secs using 195.6% CPU
+Optimizing NNI: done in 0.0877349 secs using 178.1% CPU
+Optimizing NNI: done in 0.076982 secs using 203% CPU
+Optimizing NNI: done in 0.126397 secs using 197.8% CPU
+Optimizing NNI: done in 0.134895 secs using 185.3% CPU
+Optimizing NNI: done in 0.090654 secs using 206.8% CPU
+Optimizing NNI: done in 0.171911 secs using 181.8% CPU
+Optimizing NNI: done in 0.180683 secs using 207.5% CPU
+Optimizing NNI: done in 0.140701 secs using 199.9% CPU
+Optimizing NNI: done in 0.123592 secs using 202.3% CPU
+Optimizing NNI: done in 0.110759 secs using 197.5% CPU
+Optimizing NNI: done in 0.129549 secs using 193% CPU
+Optimizing NNI: done in 0.123631 secs using 202.2% CPU
+Optimizing NNI: done in 0.150094 secs using 187.4% CPU
+Optimizing NNI: done in 0.13222 secs using 189.1% CPU
+Optimizing NNI: done in 0.131912 secs using 213.2% CPU
+Optimizing NNI: done in 0.136572 secs using 183.1% CPU
+Optimizing NNI: done in 0.126372 secs using 197.8% CPU
+Optimizing NNI: done in 0.142473 secs using 197.4% CPU
+Optimizing NNI: done in 0.147767 secs using 211.5% CPU
+Optimizing NNI: done in 0.109662 secs using 199.5% CPU
+Optimizing NNI: done in 0.134421 secs using 186% CPU
+Optimizing NNI: done in 0.167815 secs using 204.8% CPU
+Optimizing NNI: done in 0.218058 secs using 200.6% CPU
+Optimizing NNI: done in 0.117221 secs using 186.6% CPU
+Optimizing NNI: done in 0.22095 secs using 212.2% CPU
+Optimizing NNI: done in 0.122106 secs using 179.1% CPU
+Optimizing NNI: done in 0.108368 secs using 173% CPU
+Optimizing NNI: done in 0.126886 secs using 197% CPU
+Optimizing NNI: done in 0.0900292 secs using 208.3% CPU
+Optimizing NNI: done in 0.112065 secs using 195.2% CPU
+Optimizing NNI: done in 0.0850561 secs using 220.4% CPU
+Optimizing NNI: done in 0.134286 secs using 186.2% CPU
+Optimizing NNI: done in 0.103205 secs using 212% CPU
+Optimizing NNI: done in 0.146185 secs using 192.4% CPU
+200 samples done
+Optimizing NNI: done in 0.129233 secs using 217.6% CPU
+Optimizing NNI: done in 0.122796 secs using 203.6% CPU
+Optimizing NNI: done in 0.0893647 secs using 209.8% CPU
+Optimizing NNI: done in 0.181162 secs using 207% CPU
+Optimizing NNI: done in 0.109057 secs using 200.6% CPU
+Optimizing NNI: done in 0.124236 secs using 201.2% CPU
+Optimizing NNI: done in 0.0806153 secs using 193.8% CPU
+Optimizing NNI: done in 0.10102 secs using 216.5% CPU
+Optimizing NNI: done in 0.151081 secs using 206.8% CPU
+Optimizing NNI: done in 0.16449 secs using 209% CPU
+Optimizing NNI: done in 0.0763512 secs using 204.6% CPU
+Optimizing NNI: done in 0.139708 secs using 201.3% CPU
+Optimizing NNI: done in 0.129935 secs using 192.4% CPU
+Optimizing NNI: done in 0.151342 secs using 206.5% CPU
+Optimizing NNI: done in 0.112266 secs using 222.7% CPU
+Optimizing NNI: done in 0.105452 secs using 177.8% CPU
+Optimizing NNI: done in 0.146325 secs using 192.2% CPU
+Optimizing NNI: done in 0.142735 secs using 186.1% CPU
+Optimizing NNI: done in 0.117313 secs using 213.1% CPU
+Optimizing NNI: done in 0.12851 secs using 194.5% CPU
+Optimizing NNI: done in 0.157017 secs using 199% CPU
+Optimizing NNI: done in 0.177017 secs using 194.2% CPU
+Optimizing NNI: done in 0.122745 secs using 178.2% CPU
+Optimizing NNI: done in 0.183151 secs using 204.7% CPU
+Optimizing NNI: done in 0.130278 secs using 203.9% CPU
+Optimizing NNI: done in 0.183549 secs using 178.8% CPU
+Optimizing NNI: done in 0.147132 secs using 169.9% CPU
+Optimizing NNI: done in 0.186769 secs using 200.8% CPU
+Optimizing NNI: done in 0.137611 secs using 181.7% CPU
+Optimizing NNI: done in 0.147159 secs using 201.7% CPU
+Optimizing NNI: done in 0.114648 secs using 190.8% CPU
+Optimizing NNI: done in 0.137296 secs using 204.8% CPU
+Optimizing NNI: done in 0.181027 secs using 181.3% CPU
+Optimizing NNI: done in 0.14856 secs using 210.4% CPU
+Optimizing NNI: done in 0.0827118 secs using 188.9% CPU
+Optimizing NNI: done in 0.185044 secs using 202.7% CPU
+Optimizing NNI: done in 0.123244 secs using 202.8% CPU
+Optimizing NNI: done in 0.116723 secs using 187.4% CPU
+Optimizing NNI: done in 0.105297 secs using 207.7% CPU
+Optimizing NNI: done in 0.110326 secs using 198.3% CPU
+Optimizing NNI: done in 0.106437 secs using 205.5% CPU
+Optimizing NNI: done in 0.202262 secs using 185.4% CPU
+Optimizing NNI: done in 0.112258 secs using 222.7% CPU
+Optimizing NNI: done in 0.0983818 secs using 190.6% CPU
+Optimizing NNI: done in 0.0904114 secs using 207.4% CPU
+Optimizing NNI: done in 0.11101 secs using 197.1% CPU
+Optimizing NNI: done in 0.149442 secs using 188.2% CPU
+Optimizing NNI: done in 0.0886092 secs using 211.6% CPU
+Optimizing NNI: done in 0.148167 secs using 210.9% CPU
+Optimizing NNI: done in 0.117231 secs using 213.3% CPU
+Optimizing NNI: done in 0.0938859 secs using 199.7% CPU
+Optimizing NNI: done in 0.10323 secs using 211.9% CPU
+Optimizing NNI: done in 0.113049 secs using 221.1% CPU
+Optimizing NNI: done in 0.119709 secs using 208.8% CPU
+Optimizing NNI: done in 0.140503 secs using 200.2% CPU
+Optimizing NNI: done in 0.137987 secs using 181.2% CPU
+Optimizing NNI: done in 0.133651 secs using 210.4% CPU
+Optimizing NNI: done in 0.114067 secs using 219.2% CPU
+Optimizing NNI: done in 0.102315 secs using 183.3% CPU
+Optimizing NNI: done in 0.171579 secs using 200.3% CPU
+Optimizing NNI: done in 0.165576 secs using 188.7% CPU
+Optimizing NNI: done in 0.139339 secs using 201.8% CPU
+Optimizing NNI: done in 0.120155 secs using 195.1% CPU
+Optimizing NNI: done in 0.118236 secs using 171.8% CPU
+Optimizing NNI: done in 0.115151 secs using 203.5% CPU
+Optimizing NNI: done in 0.12007 secs using 208.2% CPU
+Optimizing NNI: done in 0.141915 secs using 187.2% CPU
+Optimizing NNI: done in 0.109997 secs using 198.9% CPU
+Optimizing NNI: done in 0.125431 secs using 199.3% CPU
+Optimizing NNI: done in 0.0988937 secs using 189.6% CPU
+Optimizing NNI: done in 0.116108 secs using 188.4% CPU
+Optimizing NNI: done in 0.1031 secs using 212.2% CPU
+Optimizing NNI: done in 0.142587 secs using 186.3% CPU
+Optimizing NNI: done in 0.156128 secs using 200.2% CPU
+Optimizing NNI: done in 0.148933 secs using 178.4% CPU
+Optimizing NNI: done in 0.115387 secs using 216.7% CPU
+Optimizing NNI: done in 0.167883 secs using 204.8% CPU
+Optimizing NNI: done in 0.10016 secs using 218.4% CPU
+Optimizing NNI: done in 0.122884 secs using 203.4% CPU
+Optimizing NNI: done in 0.114319 secs using 177.7% CPU
+Optimizing NNI: done in 0.132242 secs using 212.7% CPU
+Optimizing NNI: done in 0.149237 secs using 198.9% CPU
+Optimizing NNI: done in 0.199694 secs using 195.6% CPU
+Optimizing NNI: done in 0.110745 secs using 197.5% CPU
+Optimizing NNI: done in 0.125019 secs using 200% CPU
+Optimizing NNI: done in 0.15222 secs using 205.3% CPU
+Optimizing NNI: done in 0.119949 secs using 208.4% CPU
+Optimizing NNI: done in 0.143558 secs using 195.9% CPU
+Optimizing NNI: done in 0.126577 secs using 185.2% CPU
+Optimizing NNI: done in 0.158522 secs using 197.1% CPU
+Optimizing NNI: done in 0.113729 secs using 219.8% CPU
+Optimizing NNI: done in 0.11845 secs using 184.7% CPU
+Optimizing NNI: done in 0.104355 secs using 209.6% CPU
+Optimizing NNI: done in 0.0960023 secs using 227.9% CPU
+Optimizing NNI: done in 0.0987866 secs using 189.8% CPU
+Optimizing NNI: done in 0.157177 secs using 198.8% CPU
+Optimizing NNI: done in 0.17967 secs using 191.3% CPU
+Optimizing NNI: done in 0.154314 secs using 202.5% CPU
+Optimizing NNI: done in 0.0752801 secs using 207.6% CPU
+Optimizing NNI: done in 0.114781 secs using 217.8% CPU
+300 samples done
+Optimizing NNI: done in 0.149797 secs using 187.8% CPU
+Optimizing NNI: done in 0.137713 secs using 204.2% CPU
+Optimizing NNI: done in 0.105496 secs using 207.4% CPU
+Optimizing NNI: done in 0.117593 secs using 186% CPU
+Optimizing NNI: done in 0.127924 secs using 195.4% CPU
+Optimizing NNI: done in 0.130713 secs using 191.3% CPU
+Optimizing NNI: done in 0.110525 secs using 197.9% CPU
+Optimizing NNI: done in 0.140035 secs using 200.8% CPU
+Optimizing NNI: done in 0.128393 secs using 194.7% CPU
+Optimizing NNI: done in 0.129326 secs using 193.3% CPU
+Optimizing NNI: done in 0.110787 secs using 197.5% CPU
+Optimizing NNI: done in 0.124363 secs using 201% CPU
+Optimizing NNI: done in 0.144262 secs using 216.6% CPU
+Optimizing NNI: done in 0.135857 secs using 184% CPU
+Optimizing NNI: done in 0.152685 secs using 204.7% CPU
+Optimizing NNI: done in 0.158167 secs using 197.6% CPU
+Optimizing NNI: done in 0.159653 secs using 195.7% CPU
+Optimizing NNI: done in 0.0989117 secs using 189.6% CPU
+Optimizing NNI: done in 0.1266 secs using 197.5% CPU
+Optimizing NNI: done in 0.152757 secs using 204.6% CPU
+Optimizing NNI: done in 0.160166 secs using 195.1% CPU
+Optimizing NNI: done in 0.104646 secs using 209% CPU
+Optimizing NNI: done in 0.0952718 secs using 196.8% CPU
+Optimizing NNI: done in 0.200444 secs using 194.9% CPU
+Optimizing NNI: done in 0.096003 secs using 195.3% CPU
+Optimizing NNI: done in 0.150662 secs using 207.4% CPU
+Optimizing NNI: done in 0.145892 secs using 203.5% CPU
+Optimizing NNI: done in 0.0933135 secs using 200.9% CPU
+Optimizing NNI: done in 0.0826137 secs using 189.1% CPU
+Optimizing NNI: done in 0.118815 secs using 210.4% CPU
+Optimizing NNI: done in 0.119943 secs using 195.4% CPU
+Optimizing NNI: done in 0.149353 secs using 198.8% CPU
+Optimizing NNI: done in 0.114818 secs using 190.5% CPU
+Optimizing NNI: done in 0.119555 secs using 183% CPU
+Optimizing NNI: done in 0.141714 secs using 198.5% CPU
+Optimizing NNI: done in 0.149666 secs using 187.9% CPU
+Optimizing NNI: done in 0.114792 secs using 190.6% CPU
+Optimizing NNI: done in 0.10351 secs using 211.3% CPU
+Optimizing NNI: done in 0.168041 secs using 204.6% CPU
+Optimizing NNI: done in 0.112319 secs using 194.8% CPU
+Optimizing NNI: done in 0.198325 secs using 181.2% CPU
+Optimizing NNI: done in 0.188709 secs using 198.7% CPU
+Optimizing NNI: done in 0.140584 secs using 200.1% CPU
+Optimizing NNI: done in 0.101599 secs using 215.3% CPU
+Optimizing NNI: done in 0.112454 secs using 194.5% CPU
+Optimizing NNI: done in 0.140889 secs using 188.5% CPU
+Optimizing NNI: done in 0.112283 secs using 194.8% CPU
+Optimizing NNI: done in 0.178681 secs using 209.9% CPU
+Optimizing NNI: done in 0.100217 secs using 187.1% CPU
+Optimizing NNI: done in 0.158343 secs using 197.4% CPU
+Optimizing NNI: done in 0.0799136 secs using 195.5% CPU
+Optimizing NNI: done in 0.128463 secs using 194.6% CPU
+Optimizing NNI: done in 0.141253 secs using 199.1% CPU
+Optimizing NNI: done in 0.137114 secs using 182.3% CPU
+Optimizing NNI: done in 0.120425 secs using 207.6% CPU
+Optimizing NNI: done in 0.11285 secs using 221.5% CPU
+Optimizing NNI: done in 0.0809725 secs using 193% CPU
+Optimizing NNI: done in 0.17027 secs using 201.9% CPU
+Optimizing NNI: done in 0.083114 secs using 188% CPU
+Optimizing NNI: done in 0.12102 secs using 180.8% CPU
+Optimizing NNI: done in 0.155691 secs using 180.6% CPU
+Optimizing NNI: done in 0.0955069 secs using 229% CPU
+Optimizing NNI: done in 0.12863 secs using 194.4% CPU
+Optimizing NNI: done in 0.121746 secs using 205.3% CPU
+Optimizing NNI: done in 0.108629 secs using 201.4% CPU
+Optimizing NNI: done in 0.190619 secs using 196.7% CPU
+Optimizing NNI: done in 0.191167 secs using 196.2% CPU
+Optimizing NNI: done in 0.111 secs using 197.1% CPU
+Optimizing NNI: done in 0.236338 secs using 191.7% CPU
+Optimizing NNI: done in 0.343735 secs using 145.5% CPU
+Optimizing NNI: done in 0.25905 secs using 199% CPU
+Optimizing NNI: done in 0.195006 secs using 192.3% CPU
+Optimizing NNI: done in 0.119075 secs using 210% CPU
+Optimizing NNI: done in 0.131019 secs using 190.8% CPU
+Optimizing NNI: done in 0.115864 secs using 188.8% CPU
+Optimizing NNI: done in 0.118092 secs using 185.2% CPU
+Optimizing NNI: done in 0.232362 secs using 201.7% CPU
+Optimizing NNI: done in 0.239645 secs using 117.4% CPU
+Optimizing NNI: done in 0.174746 secs using 178.8% CPU
+Optimizing NNI: done in 0.220305 secs using 163.1% CPU
+Optimizing NNI: done in 0.162723 secs using 192% CPU
+Optimizing NNI: done in 0.116982 secs using 173.6% CPU
+Optimizing NNI: done in 0.155772 secs using 190.6% CPU
+Optimizing NNI: done in 0.184126 secs using 203.7% CPU
+Optimizing NNI: done in 0.129232 secs using 217.6% CPU
+Optimizing NNI: done in 0.158655 secs using 197% CPU
+Optimizing NNI: done in 0.14607 secs using 192.5% CPU
+Optimizing NNI: done in 0.202994 secs using 200.1% CPU
+Optimizing NNI: done in 0.126582 secs using 197.5% CPU
+Optimizing NNI: done in 0.11597 secs using 215.6% CPU
+Optimizing NNI: done in 0.116704 secs using 187.4% CPU
+Optimizing NNI: done in 0.11119 secs using 196.7% CPU
+Optimizing NNI: done in 0.139972 secs using 200.9% CPU
+Optimizing NNI: done in 0.117978 secs using 198.7% CPU
+Optimizing NNI: done in 0.136461 secs using 206.1% CPU
+Optimizing NNI: done in 0.161577 secs using 174.1% CPU
+Optimizing NNI: done in 0.11156 secs using 224.1% CPU
+Optimizing NNI: done in 0.124056 secs using 188.9% CPU
+Optimizing NNI: done in 0.112748 secs using 194% CPU
+Optimizing NNI: done in 0.115552 secs using 189.3% CPU
+400 samples done
+Optimizing NNI: done in 0.195653 secs using 191.7% CPU
+Optimizing NNI: done in 0.110059 secs using 198.8% CPU
+Optimizing NNI: done in 0.120559 secs using 181.4% CPU
+Optimizing NNI: done in 0.117734 secs using 185.8% CPU
+Optimizing NNI: done in 0.103338 secs using 181.4% CPU
+Optimizing NNI: done in 0.125815 secs using 198.7% CPU
+Optimizing NNI: done in 0.110248 secs using 198.4% CPU
+Optimizing NNI: done in 0.143663 secs using 217.5% CPU
+Optimizing NNI: done in 0.134358 secs using 186.1% CPU
+Optimizing NNI: done in 0.0939132 secs using 199.7% CPU
+Optimizing NNI: done in 0.115922 secs using 188.7% CPU
+Optimizing NNI: done in 0.147751 secs using 190.4% CPU
+Optimizing NNI: done in 0.128932 secs using 218.1% CPU
+Optimizing NNI: done in 0.122137 secs using 204.7% CPU
+Optimizing NNI: done in 0.129427 secs using 193.2% CPU
+Optimizing NNI: done in 0.118189 secs using 185.1% CPU
+Optimizing NNI: done in 0.123565 secs using 202.3% CPU
+Optimizing NNI: done in 0.195051 secs using 208.3% CPU
+Optimizing NNI: done in 0.151054 secs using 196.5% CPU
+Optimizing NNI: done in 0.171044 secs using 201% CPU
+Optimizing NNI: done in 0.123015 secs using 203.2% CPU
+Optimizing NNI: done in 0.153808 secs using 203.2% CPU
+Optimizing NNI: done in 0.111995 secs using 209.3% CPU
+Optimizing NNI: done in 0.140875 secs using 199.6% CPU
+Optimizing NNI: done in 0.149315 secs using 209.3% CPU
+Optimizing NNI: done in 0.139952 secs using 201% CPU
+Optimizing NNI: done in 0.14657 secs using 181.2% CPU
+Optimizing NNI: done in 0.113919 secs using 192% CPU
+Optimizing NNI: done in 0.106592 secs using 175.9% CPU
+Optimizing NNI: done in 0.171618 secs using 182.1% CPU
+Optimizing NNI: done in 0.165118 secs using 189.3% CPU
+Optimizing NNI: done in 0.135846 secs using 184% CPU
+Optimizing NNI: done in 0.0926994 secs using 168.6% CPU
+Optimizing NNI: done in 0.123793 secs using 176.7% CPU
+Optimizing NNI: done in 0.0969562 secs using 193.4% CPU
+Optimizing NNI: done in 0.128007 secs using 219.7% CPU
+Optimizing NNI: done in 0.150174 secs using 187.3% CPU
+Optimizing NNI: done in 0.107725 secs using 174.1% CPU
+Optimizing NNI: done in 0.147596 secs using 190.6% CPU
+Optimizing NNI: done in 0.150232 secs using 208% CPU
+Optimizing NNI: done in 0.114831 secs using 217.7% CPU
+Optimizing NNI: done in 0.116124 secs using 215.3% CPU
+Optimizing NNI: done in 0.160036 secs using 195.3% CPU
+Optimizing NNI: done in 0.088953 secs using 175.7% CPU
+Optimizing NNI: done in 0.110226 secs using 198.5% CPU
+Optimizing NNI: done in 0.126327 secs using 197.9% CPU
+Optimizing NNI: done in 0.126959 secs using 196.9% CPU
+Optimizing NNI: done in 0.131222 secs using 190.5% CPU
+Optimizing NNI: done in 0.142501 secs using 219.3% CPU
+Optimizing NNI: done in 0.0993657 secs using 220.1% CPU
+Optimizing NNI: done in 0.113336 secs using 193% CPU
+Optimizing NNI: done in 0.135047 secs using 185.1% CPU
+Optimizing NNI: done in 0.105189 secs using 208% CPU
+Optimizing NNI: done in 0.14572 secs using 214.5% CPU
+Optimizing NNI: done in 0.0961074 secs using 195.1% CPU
+Optimizing NNI: done in 0.173204 secs using 198.5% CPU
+Optimizing NNI: done in 0.163344 secs using 210.4% CPU
+Optimizing NNI: done in 0.107538 secs using 203.4% CPU
+Optimizing NNI: done in 0.136413 secs using 194.7% CPU
+Optimizing NNI: done in 0.112253 secs using 194.9% CPU
+Optimizing NNI: done in 0.120824 secs using 194% CPU
+Optimizing NNI: done in 0.145427 secs using 193.4% CPU
+Optimizing NNI: done in 0.158406 secs using 197.3% CPU
+Optimizing NNI: done in 0.124272 secs using 201.2% CPU
+Optimizing NNI: done in 0.0912105 secs using 171.3% CPU
+Optimizing NNI: done in 0.116275 secs using 188.1% CPU
+Optimizing NNI: done in 0.111666 secs using 181.9% CPU
+Optimizing NNI: done in 0.124171 secs using 201.3% CPU
+Optimizing NNI: done in 0.0906524 secs using 172.4% CPU
+Optimizing NNI: done in 0.113331 secs using 193% CPU
+Optimizing NNI: done in 0.123129 secs using 177.7% CPU
+Optimizing NNI: done in 0.123766 secs using 189.4% CPU
+Optimizing NNI: done in 0.117433 secs using 186.3% CPU
+Optimizing NNI: done in 0.124474 secs using 200.8% CPU
+Optimizing NNI: done in 0.16769 secs using 195.7% CPU
+Optimizing NNI: done in 0.0981826 secs using 175.1% CPU
+Optimizing NNI: done in 0.103693 secs using 180.8% CPU
+Optimizing NNI: done in 0.142765 secs using 197% CPU
+Optimizing NNI: done in 0.0923779 secs using 203% CPU
+Optimizing NNI: done in 0.18363 secs using 204.2% CPU
+Optimizing NNI: done in 0.147798 secs using 211.4% CPU
+Optimizing NNI: done in 0.0902645 secs using 207.7% CPU
+Optimizing NNI: done in 0.123507 secs using 189.8% CPU
+Optimizing NNI: done in 0.161421 secs using 213% CPU
+Optimizing NNI: done in 0.101868 secs using 214.7% CPU
+Optimizing NNI: done in 0.114522 secs using 191% CPU
+Optimizing NNI: done in 0.116386 secs using 188% CPU
+Optimizing NNI: done in 0.111006 secs using 197.1% CPU
+Optimizing NNI: done in 0.077999 secs using 200.3% CPU
+Optimizing NNI: done in 0.192393 secs using 211.2% CPU
+Optimizing NNI: done in 0.172251 secs using 199.6% CPU
+Optimizing NNI: done in 0.0846603 secs using 184.6% CPU
+Optimizing NNI: done in 0.106823 secs using 175.5% CPU
+Optimizing NNI: done in 0.0915728 secs using 204.8% CPU
+Optimizing NNI: done in 0.0802711 secs using 194.7% CPU
+Optimizing NNI: done in 0.129464 secs using 217.2% CPU
+Optimizing NNI: done in 0.143852 secs using 184.7% CPU
+Optimizing NNI: done in 0.120448 secs using 207.6% CPU
+Optimizing NNI: done in 0.135641 secs using 207.3% CPU
+Optimizing NNI: done in 0.11842 secs using 184.7% CPU
+500 samples done
+Optimizing NNI: done in 0.120487 secs using 181.6% CPU
+Optimizing NNI: done in 0.126142 secs using 198.2% CPU
+Optimizing NNI: done in 0.111927 secs using 195.4% CPU
+Optimizing NNI: done in 0.147154 secs using 212.4% CPU
+Optimizing NNI: done in 0.130672 secs using 215.2% CPU
+Optimizing NNI: done in 0.156833 secs using 199.3% CPU
+Optimizing NNI: done in 0.126373 secs using 197.8% CPU
+Optimizing NNI: done in 0.102143 secs using 183.6% CPU
+Optimizing NNI: done in 0.0890454 secs using 175.5% CPU
+Optimizing NNI: done in 0.105003 secs using 178.6% CPU
+Optimizing NNI: done in 0.077827 secs using 200.8% CPU
+Optimizing NNI: done in 0.159336 secs using 196.1% CPU
+Optimizing NNI: done in 0.132584 secs using 188.6% CPU
+Optimizing NNI: done in 0.141124 secs using 199.3% CPU
+Optimizing NNI: done in 0.101462 secs using 215.6% CPU
+Optimizing NNI: done in 0.11126 secs using 196.6% CPU
+Optimizing NNI: done in 0.173351 secs using 198.3% CPU
+Optimizing NNI: done in 0.12416 secs using 188.8% CPU
+Optimizing NNI: done in 0.140975 secs using 199.5% CPU
+Optimizing NNI: done in 0.118188 secs using 211.5% CPU
+Optimizing NNI: done in 0.0997304 secs using 188% CPU
+Optimizing NNI: done in 0.170282 secs using 201.9% CPU
+Optimizing NNI: done in 0.125566 secs using 199.1% CPU
+Optimizing NNI: done in 0.162979 secs using 182.2% CPU
+Optimizing NNI: done in 0.109855 secs using 184.9% CPU
+Optimizing NNI: done in 0.107759 secs using 203% CPU
+Optimizing NNI: done in 0.102516 secs using 213.4% CPU
+Optimizing NNI: done in 0.110088 secs using 198.7% CPU
+Optimizing NNI: done in 0.132489 secs using 188.7% CPU
+Optimizing NNI: done in 0.0926148 secs using 202.5% CPU
+Optimizing NNI: done in 0.0984982 secs using 190.4% CPU
+Optimizing NNI: done in 0.195253 secs using 184.1% CPU
+Optimizing NNI: done in 0.235104 secs using 199.4% CPU
+Optimizing NNI: done in 0.10239 secs using 198.4% CPU
+Optimizing NNI: done in 0.10874 secs using 201.2% CPU
+Optimizing NNI: done in 0.0863833 secs using 217.1% CPU
+Optimizing NNI: done in 0.0871984 secs using 179.2% CPU
+Optimizing NNI: done in 0.132063 secs using 189.3% CPU
+Optimizing NNI: done in 0.136919 secs using 182.6% CPU
+Optimizing NNI: done in 0.117129 secs using 186.8% CPU
+Optimizing NNI: done in 0.135989 secs using 195.3% CPU
+Optimizing NNI: done in 0.139357 secs using 201.8% CPU
+Optimizing NNI: done in 0.183499 secs using 204.4% CPU
+Optimizing NNI: done in 0.117764 secs using 172.5% CPU
+Optimizing NNI: done in 0.171487 secs using 200.5% CPU
+Optimizing NNI: done in 0.114526 secs using 191% CPU
+Optimizing NNI: done in 0.132038 secs using 189.3% CPU
+Optimizing NNI: done in 0.177866 secs using 175.7% CPU
+Optimizing NNI: done in 0.127371 secs using 220.8% CPU
+Optimizing NNI: done in 0.148078 secs using 189.9% CPU
+Optimizing NNI: done in 0.14506 secs using 193.9% CPU
+Optimizing NNI: done in 0.130905 secs using 179% CPU
+Optimizing NNI: done in 0.0808633 secs using 193.2% CPU
+Optimizing NNI: done in 0.14694 secs using 212.7% CPU
+Optimizing NNI: done in 0.175487 secs using 187% CPU
+Optimizing NNI: done in 0.144291 secs using 194.9% CPU
+Optimizing NNI: done in 0.171859 secs using 181.8% CPU
+Optimizing NNI: done in 0.174121 secs using 215.4% CPU
+Optimizing NNI: done in 0.139413 secs using 201.7% CPU
+Optimizing NNI: done in 0.129844 secs using 216.6% CPU
+Optimizing NNI: done in 0.109802 secs using 199.2% CPU
+Optimizing NNI: done in 0.170556 secs using 201.5% CPU
+Optimizing NNI: done in 0.139274 secs using 201.9% CPU
+Optimizing NNI: done in 0.214966 secs using 203.5% CPU
+Optimizing NNI: done in 0.192925 secs using 210.6% CPU
+Optimizing NNI: done in 0.14567 secs using 214.5% CPU
+Optimizing NNI: done in 0.15496 secs using 201.7% CPU
+Optimizing NNI: done in 0.208066 secs using 210.3% CPU
+Optimizing NNI: done in 0.124621 secs using 188.1% CPU
+Optimizing NNI: done in 0.144865 secs using 194.1% CPU
+Optimizing NNI: done in 0.151162 secs using 186.1% CPU
+Optimizing NNI: done in 0.168607 secs using 203.9% CPU
+Optimizing NNI: done in 0.154404 secs using 182.2% CPU
+Optimizing NNI: done in 0.199637 secs using 203.5% CPU
+Optimizing NNI: done in 0.133325 secs using 199.2% CPU
+Optimizing NNI: done in 0.119593 secs using 209% CPU
+Optimizing NNI: done in 0.154816 secs using 181.7% CPU
+Optimizing NNI: done in 0.14079 secs using 199.8% CPU
+Optimizing NNI: done in 0.162729 secs using 201.6% CPU
+Optimizing NNI: done in 0.105467 secs using 207.4% CPU
+Optimizing NNI: done in 0.210806 secs using 207.5% CPU
+Optimizing NNI: done in 0.158375 secs using 197.3% CPU
+Optimizing NNI: done in 0.173929 secs using 188.7% CPU
+Optimizing NNI: done in 0.125817 secs using 223.5% CPU
+Optimizing NNI: done in 0.124845 secs using 200.2% CPU
+Optimizing NNI: done in 0.111896 secs using 181.5% CPU
+Optimizing NNI: done in 0.119594 secs using 182.9% CPU
+Optimizing NNI: done in 0.18441 secs using 186.4% CPU
+Optimizing NNI: done in 0.109487 secs using 199.8% CPU
+Optimizing NNI: done in 0.149587 secs using 208.9% CPU
+Optimizing NNI: done in 0.139208 secs using 202% CPU
+Optimizing NNI: done in 0.158211 secs using 187.6% CPU
+Optimizing NNI: done in 0.137361 secs using 170.6% CPU
+Optimizing NNI: done in 0.137323 secs using 204.8% CPU
+Optimizing NNI: done in 0.123675 secs using 202.1% CPU
+Optimizing NNI: done in 0.129723 secs using 192.7% CPU
+Optimizing NNI: done in 0.144591 secs using 194.5% CPU
+Optimizing NNI: done in 0.168501 secs using 194.7% CPU
+Optimizing NNI: done in 0.144508 secs using 151.4% CPU
+Optimizing NNI: done in 0.12631 secs using 222.7% CPU
+600 samples done
+Optimizing NNI: done in 0.125953 secs using 198.5% CPU
+Optimizing NNI: done in 0.14078 secs using 188.7% CPU
+Optimizing NNI: done in 0.147772 secs using 211.5% CPU
+Optimizing NNI: done in 0.168642 secs using 203.8% CPU
+Optimizing NNI: done in 0.135952 secs using 206.9% CPU
+Optimizing NNI: done in 0.132815 secs using 188.2% CPU
+Optimizing NNI: done in 0.150925 secs using 207.1% CPU
+Optimizing NNI: done in 0.135111 secs using 173.5% CPU
+Optimizing NNI: done in 0.14226 secs using 197.7% CPU
+Optimizing NNI: done in 0.111888 secs using 195.5% CPU
+Optimizing NNI: done in 0.125908 secs using 186.1% CPU
+Optimizing NNI: done in 0.203377 secs using 199.8% CPU
+Optimizing NNI: done in 0.156964 secs using 199.1% CPU
+Optimizing NNI: done in 0.205848 secs using 197.4% CPU
+Optimizing NNI: done in 0.0883213 secs using 212.3% CPU
+Optimizing NNI: done in 0.126923 secs using 221.6% CPU
+Optimizing NNI: done in 0.147148 secs using 212.4% CPU
+Optimizing NNI: done in 0.125614 secs using 199% CPU
+Optimizing NNI: done in 0.11366 secs using 220% CPU
+Optimizing NNI: done in 0.186487 secs using 201.1% CPU
+Optimizing NNI: done in 0.184649 secs using 186.2% CPU
+Optimizing NNI: done in 0.149557 secs using 209% CPU
+Optimizing NNI: done in 0.136438 secs using 206.1% CPU
+Optimizing NNI: done in 0.171461 secs using 200.5% CPU
+Optimizing NNI: done in 0.124731 secs using 187.9% CPU
+Optimizing NNI: done in 0.13424 secs using 186.2% CPU
+Optimizing NNI: done in 0.12517 secs using 187.2% CPU
+Optimizing NNI: done in 0.164104 secs using 190.4% CPU
+Optimizing NNI: done in 0.125659 secs using 199% CPU
+Optimizing NNI: done in 0.100175 secs using 218.4% CPU
+Optimizing NNI: done in 0.152332 secs using 194.9% CPU
+Optimizing NNI: done in 0.139883 secs using 201.1% CPU
+Optimizing NNI: done in 0.135232 secs using 184.9% CPU
+Optimizing NNI: done in 0.140708 secs using 199.9% CPU
+Optimizing NNI: done in 0.116159 secs using 188.3% CPU
+Optimizing NNI: done in 0.127847 secs using 195.5% CPU
+Optimizing NNI: done in 0.235977 secs using 211.9% CPU
+Optimizing NNI: done in 0.222407 secs using 196.7% CPU
+Optimizing NNI: done in 0.158513 secs using 197.1% CPU
+Optimizing NNI: done in 0.123576 secs using 202.3% CPU
+Optimizing NNI: done in 0.112454 secs using 194.5% CPU
+Optimizing NNI: done in 0.142555 secs using 197.3% CPU
+Optimizing NNI: done in 0.0977079 secs using 191.9% CPU
+Optimizing NNI: done in 0.0934716 secs using 200.6% CPU
+Optimizing NNI: done in 0.135303 secs using 184.8% CPU
+Optimizing NNI: done in 0.114467 secs using 191.1% CPU
+Optimizing NNI: done in 0.11976 secs using 182.7% CPU
+Optimizing NNI: done in 0.147214 secs using 191% CPU
+Optimizing NNI: done in 0.137245 secs using 204.9% CPU
+Optimizing NNI: done in 0.095045 secs using 197.3% CPU
+Optimizing NNI: done in 0.139988 secs using 200.9% CPU
+Optimizing NNI: done in 0.0988818 secs using 189.6% CPU
+Optimizing NNI: done in 0.121775 secs using 205.3% CPU
+Optimizing NNI: done in 0.103423 secs using 181.3% CPU
+Optimizing NNI: done in 0.160767 secs using 213.8% CPU
+Optimizing NNI: done in 0.155057 secs using 201.5% CPU
+Optimizing NNI: done in 0.167883 secs using 204.8% CPU
+Optimizing NNI: done in 0.107241 secs using 204% CPU
+Optimizing NNI: done in 0.149637 secs using 208.8% CPU
+Optimizing NNI: done in 0.122279 secs using 191.7% CPU
+Optimizing NNI: done in 0.133789 secs using 186.9% CPU
+Optimizing NNI: done in 0.228766 secs using 191.2% CPU
+Optimizing NNI: done in 0.13007 secs using 180.2% CPU
+Optimizing NNI: done in 0.143853 secs using 195.5% CPU
+Optimizing NNI: done in 0.096038 secs using 195.2% CPU
+Optimizing NNI: done in 0.113632 secs using 192.5% CPU
+Optimizing NNI: done in 0.110872 secs using 197.3% CPU
+Optimizing NNI: done in 0.131064 secs using 190.7% CPU
+Optimizing NNI: done in 0.116064 secs using 188.5% CPU
+Optimizing NNI: done in 0.111155 secs using 196.8% CPU
+Optimizing NNI: done in 0.115279 secs using 216.9% CPU
+Optimizing NNI: done in 0.101749 secs using 168.9% CPU
+Optimizing NNI: done in 0.133357 secs using 210.9% CPU
+Optimizing NNI: done in 0.0949923 secs using 197.4% CPU
+Optimizing NNI: done in 0.161857 secs using 193.1% CPU
+Optimizing NNI: done in 0.14793 secs using 211.2% CPU
+Optimizing NNI: done in 0.136847 secs using 194.1% CPU
+Optimizing NNI: done in 0.160581 secs using 214.1% CPU
+Optimizing NNI: done in 0.111368 secs using 196.4% CPU
+Optimizing NNI: done in 0.131017 secs using 178.9% CPU
+Optimizing NNI: done in 0.109608 secs using 199.6% CPU
+Optimizing NNI: done in 0.373464 secs using 150.6% CPU
+Optimizing NNI: done in 0.167676 secs using 186.4% CPU
+Optimizing NNI: done in 0.161822 secs using 212.4% CPU
+Optimizing NNI: done in 0.212517 secs using 183.8% CPU
+Optimizing NNI: done in 0.133965 secs using 186.6% CPU
+Optimizing NNI: done in 0.167407 secs using 186.7% CPU
+Optimizing NNI: done in 0.113324 secs using 193% CPU
+Optimizing NNI: done in 0.118224 secs using 185% CPU
+Optimizing NNI: done in 0.338051 secs using 143.3% CPU
+Optimizing NNI: done in 0.201551 secs using 139.5% CPU
+Optimizing NNI: done in 0.165835 secs using 169.6% CPU
+Optimizing NNI: done in 0.139662 secs using 201.4% CPU
+Optimizing NNI: done in 0.112415 secs using 180.7% CPU
+Optimizing NNI: done in 0.148491 secs using 199.9% CPU
+Optimizing NNI: done in 0.213713 secs using 131.6% CPU
+Optimizing NNI: done in 0.17124 secs using 200.7% CPU
+Optimizing NNI: done in 0.142443 secs using 197.4% CPU
+Optimizing NNI: done in 0.163416 secs using 191.2% CPU
+Optimizing NNI: done in 0.123147 secs using 203% CPU
+700 samples done
+Optimizing NNI: done in 0.108445 secs using 201.7% CPU
+Optimizing NNI: done in 0.174594 secs using 187.9% CPU
+Optimizing NNI: done in 0.114252 secs using 218.8% CPU
+Optimizing NNI: done in 0.145081 secs using 193.9% CPU
+Optimizing NNI: done in 0.163502 secs using 191.1% CPU
+Optimizing NNI: done in 0.160962 secs using 203.9% CPU
+Optimizing NNI: done in 0.15217 secs using 205.4% CPU
+Optimizing NNI: done in 0.135917 secs using 195.4% CPU
+Optimizing NNI: done in 0.12671 secs using 185% CPU
+Optimizing NNI: done in 0.135665 secs using 184.3% CPU
+Optimizing NNI: done in 0.123549 secs using 202.3% CPU
+Optimizing NNI: done in 0.119105 secs using 196.8% CPU
+Optimizing NNI: done in 0.168876 secs using 185% CPU
+Optimizing NNI: done in 0.154641 secs using 202.1% CPU
+Optimizing NNI: done in 0.12249 secs using 165.8% CPU
+Optimizing NNI: done in 0.0906694 secs using 189.6% CPU
+Optimizing NNI: done in 0.0922067 secs using 203.3% CPU
+Optimizing NNI: done in 0.141234 secs using 199.1% CPU
+Optimizing NNI: done in 0.126334 secs using 185.5% CPU
+Optimizing NNI: done in 0.132043 secs using 189.3% CPU
+Optimizing NNI: done in 0.115461 secs using 189.5% CPU
+Optimizing NNI: done in 0.124119 secs using 188.8% CPU
+Optimizing NNI: done in 0.188203 secs using 207.6% CPU
+Optimizing NNI: done in 0.109031 secs using 200.6% CPU
+Optimizing NNI: done in 0.124909 secs using 200.1% CPU
+Optimizing NNI: done in 0.0876057 secs using 178.4% CPU
+Optimizing NNI: done in 0.132512 secs using 200.5% CPU
+Optimizing NNI: done in 0.131734 secs using 189.8% CPU
+Optimizing NNI: done in 0.099987 secs using 171.9% CPU
+Optimizing NNI: done in 0.150204 secs using 208% CPU
+Optimizing NNI: done in 0.0980369 secs using 191.3% CPU
+Optimizing NNI: done in 0.152966 secs using 194.1% CPU
+Optimizing NNI: done in 0.142151 secs using 197.9% CPU
+Optimizing NNI: done in 0.109246 secs using 200.2% CPU
+Optimizing NNI: done in 0.0975173 secs using 192.3% CPU
+Optimizing NNI: done in 0.198348 secs using 189.1% CPU
+Optimizing NNI: done in 0.165219 secs using 208.1% CPU
+Optimizing NNI: done in 0.0730013 secs using 214% CPU
+Optimizing NNI: done in 0.133466 secs using 210.7% CPU
+Optimizing NNI: done in 0.113722 secs using 206.1% CPU
+Optimizing NNI: done in 0.101156 secs using 185.4% CPU
+Optimizing NNI: done in 0.160825 secs using 194.3% CPU
+Optimizing NNI: done in 0.148928 secs using 178.4% CPU
+Optimizing NNI: done in 0.109365 secs using 185.7% CPU
+Optimizing NNI: done in 0.102746 secs using 212.9% CPU
+Optimizing NNI: done in 0.131034 secs using 190.8% CPU
+Optimizing NNI: done in 0.154408 secs using 202.4% CPU
+Optimizing NNI: done in 0.102217 secs using 198.7% CPU
+Optimizing NNI: done in 0.135089 secs using 208.2% CPU
+Optimizing NNI: done in 0.141658 secs using 187.5% CPU
+Optimizing NNI: done in 0.138727 secs using 202.7% CPU
+Optimizing NNI: done in 0.174857 secs using 196.6% CPU
+Optimizing NNI: done in 0.130477 secs using 191.6% CPU
+Optimizing NNI: done in 0.269591 secs using 197.1% CPU
+Optimizing NNI: done in 0.113449 secs using 220.4% CPU
+Optimizing NNI: done in 0.110369 secs using 198.2% CPU
+Optimizing NNI: done in 0.0942991 secs using 198.8% CPU
+Optimizing NNI: done in 0.175544 secs using 195.8% CPU
+Optimizing NNI: done in 0.115574 secs using 216.3% CPU
+Optimizing NNI: done in 0.098394 secs using 190.6% CPU
+Optimizing NNI: done in 0.159703 secs using 195.7% CPU
+Optimizing NNI: done in 0.121783 secs using 205.3% CPU
+Optimizing NNI: done in 0.102894 secs using 212.6% CPU
+Optimizing NNI: done in 0.103033 secs using 212.3% CPU
+Optimizing NNI: done in 0.124431 secs using 200.9% CPU
+Optimizing NNI: done in 0.133869 secs using 210.1% CPU
+Optimizing NNI: done in 0.179404 secs using 209% CPU
+Optimizing NNI: done in 0.176156 secs using 195.1% CPU
+Optimizing NNI: done in 0.145942 secs using 192.7% CPU
+Optimizing NNI: done in 0.0972588 secs using 192.8% CPU
+Optimizing NNI: done in 0.10822 secs using 158.8% CPU
+Optimizing NNI: done in 0.136083 secs using 206.7% CPU
+Optimizing NNI: done in 0.163053 secs using 191.7% CPU
+Optimizing NNI: done in 0.0961782 secs using 195% CPU
+Optimizing NNI: done in 0.116627 secs using 187.6% CPU
+Optimizing NNI: done in 0.195394 secs using 191.9% CPU
+Optimizing NNI: done in 0.152957 secs using 194.1% CPU
+Optimizing NNI: done in 0.137715 secs using 204.2% CPU
+Optimizing NNI: done in 0.129713 secs using 180.7% CPU
+Optimizing NNI: done in 0.149186 secs using 188.5% CPU
+Optimizing NNI: done in 0.15603 secs using 200.3% CPU
+Optimizing NNI: done in 0.0922922 secs using 169.3% CPU
+Optimizing NNI: done in 0.114285 secs using 191.4% CPU
+Optimizing NNI: done in 0.120612 secs using 207.3% CPU
+Optimizing NNI: done in 0.13182 secs using 177.8% CPU
+Optimizing NNI: done in 0.0882097 secs using 212.6% CPU
+Optimizing NNI: done in 0.127626 secs using 195.9% CPU
+Optimizing NNI: done in 0.119863 secs using 208.6% CPU
+Optimizing NNI: done in 0.185914 secs using 201.7% CPU
+Optimizing NNI: done in 0.135891 secs using 207% CPU
+Optimizing NNI: done in 0.124155 secs using 201.4% CPU
+Optimizing NNI: done in 0.109088 secs using 200.5% CPU
+Optimizing NNI: done in 0.0945805 secs using 198.2% CPU
+Optimizing NNI: done in 0.118892 secs using 210.3% CPU
+Optimizing NNI: done in 0.171827 secs using 200.1% CPU
+Optimizing NNI: done in 0.24062 secs using 194.8% CPU
+Optimizing NNI: done in 0.118042 secs using 211.8% CPU
+Optimizing NNI: done in 0.101355 secs using 215.8% CPU
+Optimizing NNI: done in 0.102182 secs using 183.5% CPU
+Optimizing NNI: done in 0.11233 secs using 194.7% CPU
+800 samples done
+Optimizing NNI: done in 0.125231 secs using 199.6% CPU
+Optimizing NNI: done in 0.143118 secs using 196.5% CPU
+Optimizing NNI: done in 0.114837 secs using 190.5% CPU
+Optimizing NNI: done in 0.173069 secs using 198.6% CPU
+Optimizing NNI: done in 0.113588 secs using 220.1% CPU
+Optimizing NNI: done in 0.134189 secs using 186.3% CPU
+Optimizing NNI: done in 0.128661 secs using 218.6% CPU
+Optimizing NNI: done in 0.148364 secs using 210.6% CPU
+Optimizing NNI: done in 0.13406 secs using 209.8% CPU
+Optimizing NNI: done in 0.135214 secs using 208% CPU
+Optimizing NNI: done in 0.102309 secs using 198.5% CPU
+Optimizing NNI: done in 0.179944 secs using 182.3% CPU
+Optimizing NNI: done in 0.108024 secs using 202.5% CPU
+Optimizing NNI: done in 0.0855204 secs using 182.7% CPU
+Optimizing NNI: done in 0.112302 secs using 222.6% CPU
+Optimizing NNI: done in 0.101771 secs using 214.9% CPU
+Optimizing NNI: done in 0.116104 secs using 215.3% CPU
+Optimizing NNI: done in 0.132386 secs using 212.4% CPU
+Optimizing NNI: done in 0.0983922 secs using 222.3% CPU
+Optimizing NNI: done in 0.201178 secs using 201.9% CPU
+Optimizing NNI: done in 0.139353 secs using 201.8% CPU
+Optimizing NNI: done in 0.115711 secs using 189% CPU
+Optimizing NNI: done in 0.11432 secs using 191.3% CPU
+Optimizing NNI: done in 0.106779 secs using 204.9% CPU
+Optimizing NNI: done in 0.0837081 secs using 186.7% CPU
+Optimizing NNI: done in 0.131089 secs using 214.5% CPU
+Optimizing NNI: done in 0.100016 secs using 187.5% CPU
+Optimizing NNI: done in 0.0819066 secs using 190.8% CPU
+Optimizing NNI: done in 0.116296 secs using 188.1% CPU
+Optimizing NNI: done in 0.123066 secs using 203.1% CPU
+Optimizing NNI: done in 0.118628 secs using 210.7% CPU
+Optimizing NNI: done in 0.123608 secs using 202.3% CPU
+Optimizing NNI: done in 0.173159 secs using 198.5% CPU
+Optimizing NNI: done in 0.101576 secs using 184.6% CPU
+Optimizing NNI: done in 0.143933 secs using 217.1% CPU
+Optimizing NNI: done in 0.178768 secs using 183.5% CPU
+Optimizing NNI: done in 0.127857 secs using 195.5% CPU
+Optimizing NNI: done in 0.094133 secs using 199.2% CPU
+Optimizing NNI: done in 0.126419 secs using 210.1% CPU
+Optimizing NNI: done in 0.114828 secs using 190.5% CPU
+Optimizing NNI: done in 0.230251 secs using 196.8% CPU
+Optimizing NNI: done in 0.116162 secs using 188.3% CPU
+Optimizing NNI: done in 0.104427 secs using 209.5% CPU
+Optimizing NNI: done in 0.161967 secs using 202.6% CPU
+Optimizing NNI: done in 0.1261 secs using 198.3% CPU
+Optimizing NNI: done in 0.158983 secs using 196.6% CPU
+Optimizing NNI: done in 0.164664 secs using 208.8% CPU
+Optimizing NNI: done in 0.117436 secs using 212.9% CPU
+Optimizing NNI: done in 0.12489 secs using 175.2% CPU
+Optimizing NNI: done in 0.133405 secs using 187.4% CPU
+Optimizing NNI: done in 0.0918627 secs using 204.1% CPU
+Optimizing NNI: done in 0.144426 secs using 183.9% CPU
+Optimizing NNI: done in 0.137213 secs using 205% CPU
+Optimizing NNI: done in 0.0878333 secs using 213.5% CPU
+Optimizing NNI: done in 0.123499 secs using 202.4% CPU
+Optimizing NNI: done in 0.135707 secs using 207.2% CPU
+Optimizing NNI: done in 0.102385 secs using 213.7% CPU
+Optimizing NNI: done in 0.152948 secs using 204.3% CPU
+Optimizing NNI: done in 0.113896 secs using 192.1% CPU
+Optimizing NNI: done in 0.118986 secs using 183.8% CPU
+Optimizing NNI: done in 0.136474 secs using 183.2% CPU
+Optimizing NNI: done in 0.084395 secs using 166.6% CPU
+Optimizing NNI: done in 0.17781 secs using 193.3% CPU
+Optimizing NNI: done in 0.147144 secs using 212.4% CPU
+Optimizing NNI: done in 0.129264 secs using 181.3% CPU
+Optimizing NNI: done in 0.135856 secs using 195.5% CPU
+Optimizing NNI: done in 0.102343 secs using 213.7% CPU
+Optimizing NNI: done in 0.127797 secs using 195.6% CPU
+Optimizing NNI: done in 0.143886 secs using 195.5% CPU
+Optimizing NNI: done in 0.174675 secs using 196.8% CPU
+Optimizing NNI: done in 0.176778 secs using 194.5% CPU
+Optimizing NNI: done in 0.205684 secs using 197.5% CPU
+Optimizing NNI: done in 0.131348 secs using 214.1% CPU
+Optimizing NNI: done in 0.144771 secs using 215.9% CPU
+Optimizing NNI: done in 0.115904 secs using 175.3% CPU
+Optimizing NNI: done in 0.0798596 secs using 195.7% CPU
+Optimizing NNI: done in 0.136133 secs using 195.1% CPU
+Optimizing NNI: done in 0.112833 secs using 180% CPU
+Optimizing NNI: done in 0.108107 secs using 173.4% CPU
+Optimizing NNI: done in 0.115774 secs using 215.9% CPU
+Optimizing NNI: done in 0.135858 secs using 207% CPU
+Optimizing NNI: done in 0.133922 secs using 198.3% CPU
+Optimizing NNI: done in 0.161076 secs using 213.4% CPU
+Optimizing NNI: done in 0.122059 secs using 204.8% CPU
+Optimizing NNI: done in 0.163558 secs using 210.2% CPU
+Optimizing NNI: done in 0.0790772 secs using 197.6% CPU
+Optimizing NNI: done in 0.149873 secs using 208.5% CPU
+Optimizing NNI: done in 0.125429 secs using 186.9% CPU
+Optimizing NNI: done in 0.100854 secs using 185.9% CPU
+Optimizing NNI: done in 0.133993 secs using 209.9% CPU
+Optimizing NNI: done in 0.156049 secs using 190.2% CPU
+Optimizing NNI: done in 0.125559 secs using 199.1% CPU
+Optimizing NNI: done in 0.174157 secs using 197.4% CPU
+Optimizing NNI: done in 0.165167 secs using 208.1% CPU
+Optimizing NNI: done in 0.113624 secs using 192.5% CPU
+Optimizing NNI: done in 0.153991 secs using 202.9% CPU
+Optimizing NNI: done in 0.102668 secs using 167.4% CPU
+Optimizing NNI: done in 0.116646 secs using 214.3% CPU
+Optimizing NNI: done in 0.153527 secs using 183.2% CPU
+Optimizing NNI: done in 0.0947705 secs using 148.4% CPU
+900 samples done
+Optimizing NNI: done in 0.133515 secs using 210.7% CPU
+Optimizing NNI: done in 0.120292 secs using 207.8% CPU
+Optimizing NNI: done in 0.0911885 secs using 205.6% CPU
+Optimizing NNI: done in 0.106826 secs using 190.1% CPU
+Optimizing NNI: done in 0.122683 secs using 203.8% CPU
+Optimizing NNI: done in 0.0978475 secs using 191.6% CPU
+Optimizing NNI: done in 0.123422 secs using 189.9% CPU
+Optimizing NNI: done in 0.172998 secs using 198.7% CPU
+Optimizing NNI: done in 0.146698 secs using 202.4% CPU
+Optimizing NNI: done in 0.110527 secs using 197.9% CPU
+Optimizing NNI: done in 0.152857 secs using 204.4% CPU
+Optimizing NNI: done in 0.183914 secs using 203.9% CPU
+Optimizing NNI: done in 0.0905131 secs using 172.6% CPU
+Optimizing NNI: done in 0.130235 secs using 192% CPU
+Optimizing NNI: done in 0.147645 secs using 211.7% CPU
+Optimizing NNI: done in 0.126942 secs using 221.6% CPU
+Optimizing NNI: done in 0.0986432 secs using 221.8% CPU
+Optimizing NNI: done in 0.160542 secs using 194.7% CPU
+Optimizing NNI: done in 0.124288 secs using 201.1% CPU
+Optimizing NNI: done in 0.151099 secs using 186.1% CPU
+Optimizing NNI: done in 0.153047 secs using 204.2% CPU
+Optimizing NNI: done in 0.181269 secs using 206.9% CPU
+Optimizing NNI: done in 0.11918 secs using 170.4% CPU
+Optimizing NNI: done in 0.100307 secs using 202.5% CPU
+Optimizing NNI: done in 0.123032 secs using 203.2% CPU
+Optimizing NNI: done in 0.12129 secs using 167.5% CPU
+Optimizing NNI: done in 0.0987032 secs using 190% CPU
+Optimizing NNI: done in 0.136993 secs using 205.3% CPU
+Optimizing NNI: done in 0.0933991 secs using 200.8% CPU
+Optimizing NNI: done in 0.137006 secs using 205.3% CPU
+Optimizing NNI: done in 0.13589 secs using 207% CPU
+Optimizing NNI: done in 0.120941 secs using 168% CPU
+Optimizing NNI: done in 0.10519 secs using 208% CPU
+Optimizing NNI: done in 0.16228 secs using 211.8% CPU
+Optimizing NNI: done in 0.129776 secs using 192.6% CPU
+Optimizing NNI: done in 0.0961457 secs using 195% CPU
+Optimizing NNI: done in 0.0888006 secs using 176% CPU
+Optimizing NNI: done in 0.166813 secs using 206.1% CPU
+Optimizing NNI: done in 0.132245 secs using 212.7% CPU
+Optimizing NNI: done in 0.101133 secs using 216.3% CPU
+Optimizing NNI: done in 0.156669 secs using 189.5% CPU
+Optimizing NNI: done in 0.131938 secs using 213.2% CPU
+Optimizing NNI: done in 0.10405 secs using 195.2% CPU
+Optimizing NNI: done in 0.149589 secs using 177.6% CPU
+Optimizing NNI: done in 0.113662 secs using 220% CPU
+Optimizing NNI: done in 0.164513 secs using 209% CPU
+Optimizing NNI: done in 0.120713 secs using 207.1% CPU
+Optimizing NNI: done in 0.136298 secs using 206.3% CPU
+Optimizing NNI: done in 0.102437 secs using 213.5% CPU
+Optimizing NNI: done in 0.152379 secs using 205.1% CPU
+Optimizing NNI: done in 0.139469 secs using 201.7% CPU
+Optimizing NNI: done in 0.155951 secs using 200.4% CPU
+Optimizing NNI: done in 0.111132 secs using 196.8% CPU
+Optimizing NNI: done in 0.104436 secs using 209.5% CPU
+Optimizing NNI: done in 0.15572 secs using 190.6% CPU
+Optimizing NNI: done in 0.108246 secs using 202.1% CPU
+Optimizing NNI: done in 0.150329 secs using 207.9% CPU
+Optimizing NNI: done in 0.120111 secs using 208.1% CPU
+Optimizing NNI: done in 0.121442 secs using 193% CPU
+Optimizing NNI: done in 0.120232 secs using 207.9% CPU
+Optimizing NNI: done in 0.132844 secs using 176.4% CPU
+Optimizing NNI: done in 0.172538 secs using 199.2% CPU
+Optimizing NNI: done in 0.136979 secs using 205.3% CPU
+Optimizing NNI: done in 0.142844 secs using 186% CPU
+Optimizing NNI: done in 0.171243 secs using 200.7% CPU
+Optimizing NNI: done in 0.123882 secs using 201.8% CPU
+Optimizing NNI: done in 0.123694 secs using 202.1% CPU
+Optimizing NNI: done in 0.089969 secs using 208.4% CPU
+Optimizing NNI: done in 0.140898 secs using 188.5% CPU
+Optimizing NNI: done in 0.119553 secs using 209.1% CPU
+Optimizing NNI: done in 0.107808 secs using 202.9% CPU
+Optimizing NNI: done in 0.0965158 secs using 194.3% CPU
+Optimizing NNI: done in 0.11059 secs using 183.7% CPU
+Optimizing NNI: done in 0.103546 secs using 211.3% CPU
+Optimizing NNI: done in 0.11414 secs using 219% CPU
+Optimizing NNI: done in 0.0661601 secs using 188.9% CPU
+Optimizing NNI: done in 0.125008 secs using 200% CPU
+Optimizing NNI: done in 0.118245 secs using 185% CPU
+Optimizing NNI: done in 0.132733 secs using 188.3% CPU
+Optimizing NNI: done in 0.122289 secs using 191.7% CPU
+Optimizing NNI: done in 0.159136 secs using 196.4% CPU
+Optimizing NNI: done in 0.0917736 secs using 204.3% CPU
+Optimizing NNI: done in 0.115749 secs using 216% CPU
+Optimizing NNI: done in 0.131069 secs using 214.6% CPU
+Optimizing NNI: done in 0.16387 secs using 181.2% CPU
+Optimizing NNI: done in 0.159092 secs using 186.6% CPU
+Optimizing NNI: done in 0.195111 secs using 192.2% CPU
+Optimizing NNI: done in 0.12879 secs using 218.4% CPU
+Optimizing NNI: done in 0.102143 secs using 183.6% CPU
+Optimizing NNI: done in 0.100764 secs using 186.1% CPU
+Optimizing NNI: done in 0.0971146 secs using 193.1% CPU
+Optimizing NNI: done in 0.152065 secs using 205.5% CPU
+Optimizing NNI: done in 0.132725 secs using 188.4% CPU
+Optimizing NNI: done in 0.0988844 secs using 189.6% CPU
+Optimizing NNI: done in 0.110328 secs using 198.3% CPU
+Optimizing NNI: done in 0.12701 secs using 196.8% CPU
+Optimizing NNI: done in 0.102476 secs using 213.5% CPU
+Optimizing NNI: done in 0.142787 secs using 197% CPU
+Optimizing NNI: done in 0.121526 secs using 205.7% CPU
+Optimizing NNI: done in 0.206762 secs using 211.6% CPU
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 302 ITERATIONS / Time: 0h:15m:53s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23542.197
+2. Current log-likelihood: -23542.149
+3. Current log-likelihood: -23542.075
+4. Current log-likelihood: -23542.005
+5. Current log-likelihood: -23541.940
+6. Current log-likelihood: -23541.878
+7. Current log-likelihood: -23541.819
+8. Current log-likelihood: -23541.764
+9. Current log-likelihood: -23541.711
+10. Current log-likelihood: -23541.658
+11. Current log-likelihood: -23541.607
+12. Current log-likelihood: -23541.558
+13. Current log-likelihood: -23541.508
+14. Current log-likelihood: -23541.464
+15. Current log-likelihood: -23541.418
+16. Current log-likelihood: -23541.373
+17. Current log-likelihood: -23541.330
+18. Current log-likelihood: -23541.287
+19. Current log-likelihood: -23541.245
+20. Current log-likelihood: -23541.202
+21. Current log-likelihood: -23541.162
+22. Current log-likelihood: -23541.123
+23. Current log-likelihood: -23541.084
+24. Current log-likelihood: -23541.042
+25. Current log-likelihood: -23541.004
+26. Current log-likelihood: -23540.968
+27. Current log-likelihood: -23540.931
+28. Current log-likelihood: -23540.895
+29. Current log-likelihood: -23540.859
+30. Current log-likelihood: -23540.820
+31. Current log-likelihood: -23540.785
+32. Current log-likelihood: -23540.747
+33. Current log-likelihood: -23540.713
+34. Current log-likelihood: -23540.681
+35. Current log-likelihood: -23540.649
+36. Current log-likelihood: -23540.617
+37. Current log-likelihood: -23540.586
+38. Current log-likelihood: -23540.555
+39. Current log-likelihood: -23540.524
+40. Current log-likelihood: -23540.494
+41. Current log-likelihood: -23540.464
+42. Current log-likelihood: -23540.444
+43. Current log-likelihood: -23540.413
+44. Current log-likelihood: -23540.383
+45. Current log-likelihood: -23540.353
+46. Current log-likelihood: -23540.324
+47. Current log-likelihood: -23540.295
+48. Current log-likelihood: -23540.266
+49. Current log-likelihood: -23540.237
+50. Current log-likelihood: -23540.209
+51. Current log-likelihood: -23540.181
+52. Current log-likelihood: -23540.154
+53. Current log-likelihood: -23540.136
+54. Current log-likelihood: -23540.108
+55. Current log-likelihood: -23540.091
+56. Current log-likelihood: -23540.062
+57. Current log-likelihood: -23540.045
+58. Current log-likelihood: -23540.017
+59. Current log-likelihood: -23540.001
+60. Current log-likelihood: -23539.973
+61. Current log-likelihood: -23539.956
+62. Current log-likelihood: -23539.930
+63. Current log-likelihood: -23539.915
+64. Current log-likelihood: -23539.888
+65. Current log-likelihood: -23539.874
+66. Current log-likelihood: -23539.858
+67. Current log-likelihood: -23539.841
+68. Current log-likelihood: -23539.816
+69. Current log-likelihood: -23539.802
+70. Current log-likelihood: -23539.787
+71. Current log-likelihood: -23539.771
+72. Current log-likelihood: -23539.745
+73. Current log-likelihood: -23539.731
+74. Current log-likelihood: -23539.716
+75. Current log-likelihood: -23539.701
+76. Current log-likelihood: -23539.686
+77. Current log-likelihood: -23539.671
+78. Current log-likelihood: -23539.657
+79. Current log-likelihood: -23539.643
+80. Current log-likelihood: -23539.629
+81. Current log-likelihood: -23539.614
+82. Current log-likelihood: -23539.601
+83. Current log-likelihood: -23539.587
+84. Current log-likelihood: -23539.573
+85. Current log-likelihood: -23539.561
+86. Current log-likelihood: -23539.547
+87. Current log-likelihood: -23539.534
+88. Current log-likelihood: -23539.522
+89. Current log-likelihood: -23539.509
+90. Current log-likelihood: -23539.497
+91. Current log-likelihood: -23539.485
+92. Current log-likelihood: -23539.472
+93. Current log-likelihood: -23539.460
+94. Current log-likelihood: -23539.448
+95. Current log-likelihood: -23539.436
+96. Current log-likelihood: -23539.423
+97. Current log-likelihood: -23539.412
+98. Current log-likelihood: -23539.400
+99. Current log-likelihood: -23539.388
+Optimal log-likelihood: -23539.388
+Rate parameters:  A-C: 1.15575  A-G: 12.57549  A-T: 3.83004  C-G: 1.29652  C-T: 8.13752  G-T: 1.00000
+Base frequencies:  A: 0.212  C: 0.188  G: 0.164  T: 0.436
+Proportion of invariable sites: 0.235
+Site proportion and rates:  (0.177,0.043) (0.092,0.248) (0.104,0.764) (0.286,1.834) (0.107,3.434)
+Parameters optimization took 99 rounds (29.126 sec)
+BEST SCORE FOUND : -23539.388
+Creating bootstrap support values...
+Split supports printed to NEXUS file V8.2023-05-19_trimmed_partition-codon.phy.splits.nex
+Total tree length: 20.782
+
+Total number of iterations: 302
+CPU time used for tree search: 1788.906 sec (0h:29m:48s)
+Wall-clock time used for tree search: 927.228 sec (0h:15m:27s)
+Total CPU time used: 1905.359 sec (0h:31m:45s)
+Total wall-clock time used: 983.827 sec (0h:16m:23s)
+UFBoot trees printed to V8.2023-05-19_trimmed_partition-codon.phy.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file V8.2023-05-19_trimmed_partition-codon.phy.splits.nex...
+282 taxa and 6126 splits.
+Consensus tree written to V8.2023-05-19_trimmed_partition-codon.phy.contree
+Reading input trees file V8.2023-05-19_trimmed_partition-codon.phy.contree
+Log-likelihood of consensus tree: -23541.304
+
+Analysis results written to: 
+  IQ-TREE report:                V8.2023-05-19_trimmed_partition-codon.phy.iqtree
+  Maximum-likelihood tree:       V8.2023-05-19_trimmed_partition-codon.phy.treefile
+  Likelihood distances:          V8.2023-05-19_trimmed_partition-codon.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          V8.2023-05-19_trimmed_partition-codon.phy.splits.nex
+  Consensus tree:                V8.2023-05-19_trimmed_partition-codon.phy.contree
+  UFBoot trees:                  V8.2023-05-19_trimmed_partition-codon.phy.ufboot
+  Screen log file:               V8.2023-05-19_trimmed_partition-codon.phy.log
+
+Date and Time: Fri May 19 15:17:13 2023
