@@ -39,7 +39,7 @@ p <- p %<+% d + geom_nodepoint(aes(subset = label > 50))
 p <- p %<+% d1 + geom_tiplab(aes(label=new_tip_labels), size=2) + hexpand(.3)
 p
 
-ggsave("temp_with_bs.pdf", width=20, height=40)
+ggsave("03_temp_with_bs.pdf", width=20, height=40)
 
 #### SUBSET TREE ####
 
@@ -59,7 +59,7 @@ subtree_function <- function(genus) {
   p <- p %<+% d1 + geom_tiplab(aes(label=new_tip_labels), size=2) + hexpand(.3)
   p
   
-  ggsave(file = paste0("subtree_", genus, ".pdf"), width=10, height=8)
+  ggsave(file = paste0("03_subtree_", genus, ".pdf"), width=10, height=8)
   
 }
 
