@@ -11,7 +11,7 @@ library("ggplot2")
 library("ggspatial")
 library("ggrepel")
 
-sites=read.csv("NZ_Rotifer_sites.csv")
+sites=read.csv("01_NZ_Rotifer_sites.csv")
 
 # Set lat/lon boundaries (x=longitude y=latitude)
 #all of NZ
