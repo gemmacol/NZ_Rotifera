@@ -16,20 +16,20 @@ library(dplyr)
 library(Manu)
 library(tidyverse)
 
-# NOTE: Be sure that metadata and sequences are arranged in exactly the same order !!!
-d_meta <- read.csv("03_metadata.csv") 
-sequences <- ape::read.FASTA("04_alignment.fasta", type="DNA") 
-genus_list <- read_csv('03_genus_list.csv')
 
-d_sp <- as.data.frame(unique(d_meta$species_name_barcode_gap)) # isolate unique species names
-d_vec <- as.character(d_meta$species_name_barcode_gap) # create a vector of species names for the dataset
+# NOTE: Be sure that metadata and sequences are arranged in exactly the same order !!!
+d_meta <- read.csv("04_metadata_for_barcode_gap.csv") 
+sequences <- ape::read.FASTA("04_alignment_for_barcode_gap.fasta", type="DNA") 
+
+d_sp <- as.data.frame(unique(d_meta$species)) # isolate unique species names
+d_vec <- as.character(d_meta$species) # create a vector of species names for the dataset
 
 #### Loop to calculate intraspecific divergences ####
 Intraspecies.dat<-data.frame() # Create blank dataframe to store data generated from Loop
 
 for (i in 1:nrow(d_sp)){           # for each species
-  species.group       <- d_meta[d_meta$species_name_barcode_gap %in% d_sp[i,],] # make a list of all sequences for a species
-  species.seqs        <- sequences[names(sequences) %in% species.group$tip_labels_xx] # isolates the sequences for that species
+  species.group       <- d_meta[d_meta$species %in% d_sp[i,],] # make a list of all sequences for a species
+  species.seqs        <- sequences[names(sequences) %in% species.group$tip_labels_alt1] # isolates the sequences for that species
   Intraspecies.dist   <- ape::dist.dna(species.seqs, model="raw", pairwise.deletion = TRUE) # calculates p-distances among sequences with pairwise deletions
   Intraspecies.dat    <- rbind(Intraspecies.dat, c(nrow(species.group),           # calculates the minimum, mean, and maximum intraspecific divergence
                                                    min(Intraspecies.dist), mean(Intraspecies.dist),
@@ -65,6 +65,7 @@ names(interspecies.dat)<-c("MinInter", "Species")                               
 BarcodeGap   <- merge(Intraspecies.dat, interspecies.dat, by = c("Species"))              # merge the dataframes into one
 #BarcodeGap   <- na.omit(BarcodeGap[- grep("sp.", BarcodeGap$Species),])                   # could use this to remove species with "sp." in their name, and species lacking intraspecific values. Or see filter option below. 
 write.csv(BarcodeGap, "04_barcode_gap_results.csv")
+#BarcodeGap <- read_csv('04_barcode_gap_results.csv')
 
 BarcodeGap <- BarcodeGap %>% filter(MaxIntra>0.01) #filter out those with basically no intraspecific variation (clearly a barcode gap, just cluttering the graph)
 
@@ -81,10 +82,11 @@ ggplot(BarcodeGap)+                          # species above the line have a bar
         axis.text = element_text(colour ="black", size=8),
         strip.background=element_rect(fill=NA),
         strip.text=element_text(size=11))+
-   scale_x_continuous(expand = c(0, 0), limits = c(0, 0.25)) + 
-   scale_y_continuous(expand = c(0, 0), limits = c(0, 0.2)) +
   labs(y="Min Interspecific P-Distance", "Max Intraspecific P-Distance")+ 
-  geom_abline()
+  geom_abline()+
+  scale_x_continuous(expand = c(0, 0), limits = c(0, 0.3)) + 
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 0.25)) 
+
 
 ggsave(filename="04_barcodegap.png")
 
@@ -121,6 +123,5 @@ for (i in 1:length(genus_list$full_genus_list)) {
   barcode_gap_function(genus)
   
 }
-
 
 
