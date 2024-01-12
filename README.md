@@ -32,9 +32,9 @@ Outputs: supplementary_full_tree.pdf, subtree_{genus}.pdf
 
 Script: 04_barcode_gap_analysis.R
 
-Inputs: 03_metadata.csv, 04_alignment.fasta
+Inputs: 04_metadata_for_barcode_gap.csv, 04_alignment_for_barcode_gap.fasta
 
-Outputs: 04_distmatrix.csv, 04_barcodegap.png, 04_barcodegap_{genus}.png
+Outputs: 04_distmatrix.csv, 04_barcode_gap_results.csv, 04_barcodegap.png
 
 ## 5. Perform the GMYC analysis
 
